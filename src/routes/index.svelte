@@ -1,5 +1,5 @@
 <script>
-import portrait from '$lib/images/about/portrait.jpg';
+// import portrait from '$lib/images/about/portrait.jpg';
 import pokedexLite from '$lib/images/projects/pokedex-lite.jpg';
 import chromaticClimbers from '$lib/images/projects/chromatic-climbers.jpg';
 import dyzeeDiaries from '$lib/images/projects/dyzee-diaries.jpg';
@@ -23,7 +23,7 @@ import Saos from "saos";
         <section class="about-me wrapper-about-me">
             <div class="about-me-left">
                 <Saos once={true} animation={'scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both'}>
-                <img src={portrait} alt="Profile of Corey" class="profile-img">
+                <!-- <img src={portrait} alt="Profile of Corey" class="profile-img"> -->
                 </Saos>
             </div>
             <Saos once={true} animation={'fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both'} top={250} bottom={250}>
