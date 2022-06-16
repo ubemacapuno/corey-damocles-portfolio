@@ -1,4 +1,5 @@
-<script>
+<script context="module">
+	export const prerender = true;
 	import codepenIcon from "/src/lib/Images/contact/codepen-icon.svg"
 	import githubIcon from "/src/lib/Images/contact/github-icon.svg"
 	import linkedinIcon from "/src/lib/Images/contact/linkedin-icon.svg"
