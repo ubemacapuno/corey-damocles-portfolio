@@ -24,19 +24,19 @@ var import_index_ae8bceff = require("../../chunks/index-ae8bceff.js");
 var app = "";
 var footer_svelte_svelte_type_style_lang = "";
 const css$1 = {
-  code: "footer.svelte-14aette{background-color:#332FD0;display:flex;align-items:center;justify-content:center;flex-direction:column}a.svelte-14aette{color:#E15FED}p.svelte-14aette{margin:0;color:var(--nav-text-color)}",
+  code: "footer.svelte-1fsomrd{background-color:#332FD0;display:flex;align-items:center;justify-content:center;flex-direction:column}p.svelte-1fsomrd{margin:0}",
   map: null
 };
 const Footer = (0, import_index_ae8bceff.c)(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css$1);
-  return `<footer class="${"svelte-14aette"}"><p class="${"svelte-14aette"}">\xA9 2022 Corey Damocles | Coded in <a href="${"https://svelte.dev/"}" class="${"svelte-14aette"}">Svelte</a></p>
+  return `<footer class="${"svelte-1fsomrd"}"><p class="${"svelte-1fsomrd"}">\xA9 2022 Corey Damocles | Coded with <a href="${"https://svelte.dev/"}">Svelte</a></p>
     
 </footer>`;
 });
-var codepenIcon = "/_app/assets/codepen-icon-9a8cdbc7.svg";
-var githubIcon = "/_app/assets/github-icon-a4823923.svg";
-var linkedinIcon = "/_app/assets/linkedin-icon-a341ba95.svg";
 var twitterIcon = "/_app/assets/twitter-icon-005a963e.svg";
+var linkedinIcon = "/_app/assets/linkedin-icon-a341ba95.svg";
+var githubIcon = "/_app/assets/github-icon-a4823923.svg";
+var codepenIcon = "/_app/assets/codepen-icon-9a8cdbc7.svg";
 var contactFooter_svelte_svelte_type_style_lang = "";
 const css = {
   code: ".page-wrapper.svelte-1s2yqsr{display:flex;flex-direction:column;align-items:center;justify-content:center;background-image:linear-gradient(to right top,#E15FED,#9254C8,#332FD0)}header.svelte-1s2yqsr{display:flex;align-items:center;justify-content:center;flex-direction:column}ul.svelte-1s2yqsr{display:flex;justify-content:center;align-items:center;padding:0}li.svelte-1s2yqsr{display:inline;list-style:none;margin:0 5px}.icon.svelte-1s2yqsr{width:100%;transition:all 0.3s}.icon.svelte-1s2yqsr:hover{transform:scale(1.2)\r\n}h2.svelte-1s2yqsr{color:white}form.svelte-1s2yqsr{display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-end}.field.svelte-1s2yqsr{margin-bottom:20px}.fields.svelte-1s2yqsr{padding:20px 0}input.svelte-1s2yqsr,textarea.svelte-1s2yqsr,.primary.svelte-1s2yqsr{width:30rem}.actions.svelte-1s2yqsr{display:flex;align-items:center;justify-content:center}textarea.svelte-1s2yqsr{resize:none}.primary.svelte-1s2yqsr{color:black}.contact-form.svelte-1s2yqsr{margin:0;color:white}@media(max-width: 900px){input.svelte-1s2yqsr,textarea.svelte-1s2yqsr,.primary.svelte-1s2yqsr{width:20rem}header.svelte-1s2yqsr,form.svelte-1s2yqsr{align-items:center}}@media(max-width: 350px){input.svelte-1s2yqsr,textarea.svelte-1s2yqsr,.primary.svelte-1s2yqsr{width:14rem}}",
@@ -50,10 +50,10 @@ const Contact_footer = (0, import_index_ae8bceff.c)(($$result, $$props, $$bindin
 			<li class="${"svelte-1s2yqsr"}"><a target="${"_blank"}" href="${"https://github.com/ubemacapuno"}"><img${(0, import_index_ae8bceff.a)("src", githubIcon, 0)} alt="${"Github Logo"}" class="${"icon svelte-1s2yqsr"}"></a></li>
 			<li class="${"svelte-1s2yqsr"}"><a target="${"_blank"}" href="${"https://codepen.io/corey-damocles"}"><img${(0, import_index_ae8bceff.a)("src", codepenIcon, 0)} alt="${"Codepen Logo"}" class="${"icon svelte-1s2yqsr"}"></a></li>
 			<li class="${"svelte-1s2yqsr"}"><a target="${"_blank"}" href="${"https://twitter.com/coreydamo"}"><img${(0, import_index_ae8bceff.a)("src", twitterIcon, 0)} alt="${"Twitter Logo"}" class="${"icon svelte-1s2yqsr"}"></a></li></ul></header>
-  	<form method="${"post"}" action="${"POST"}" data-netlify="${"true"}" class="${"svelte-1s2yqsr"}"><div class="${"fields svelte-1s2yqsr"}"><div class="${"field half svelte-1s2yqsr"}"><p class="${"contact-form svelte-1s2yqsr"}">Name</p>
+	<form name="${"contact"}" method="${"POST"}" data-netlify="${"true"}" class="${"svelte-1s2yqsr"}"><div class="${"fields svelte-1s2yqsr"}"><div class="${"field half svelte-1s2yqsr"}"><p class="${"contact-form svelte-1s2yqsr"}">Name</p>
 				<input type="${"text"}" name="${"name"}" id="${"name"}" required class="${"svelte-1s2yqsr"}"></div>
 			<div class="${"field half svelte-1s2yqsr"}"><p class="${"contact-form svelte-1s2yqsr"}">Email</p>
-				<input type="${"text"}" name="${"email"}" id="${"email"}" required class="${"svelte-1s2yqsr"}"></div>
+				<input type="${"email"}" name="${"email"}" id="${"email"}" required class="${"svelte-1s2yqsr"}"></div>
 			<div class="${"field half svelte-1s2yqsr"}"><p class="${"contact-form svelte-1s2yqsr"}">Subject</p>
 				<input type="${"text"}" name="${"subject"}" id="${"subject"}" required class="${"svelte-1s2yqsr"}"></div>
 			<div class="${"field svelte-1s2yqsr"}"><p class="${"contact-form svelte-1s2yqsr"}">Message</p>
@@ -64,6 +64,7 @@ const Contact_footer = (0, import_index_ae8bceff.c)(($$result, $$props, $$bindin
 });
 const _layout = (0, import_index_ae8bceff.c)(($$result, $$props, $$bindings, slots) => {
   return `
+${$$result.head += `<link rel="${"preconnect"}" href="${"https://fonts.googleapis.com"}" data-svelte="svelte-ppb19b"><link rel="${"preconnect"}" href="${"https://fonts.gstatic.com"}" data-svelte="svelte-ppb19b"><link href="${"https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"}" rel="${"stylesheet"}" data-svelte="svelte-ppb19b">`, ""}
 
 ${slots.default ? slots.default({}) : ``}
 ${(0, import_index_ae8bceff.v)(Contact_footer, "ContactFooter").$$render($$result, {}, {}, {})}
