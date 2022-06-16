@@ -2,7 +2,7 @@
 import portrait from "/src/lib/Images/about/portrait.jpg"
 import pokedexLite from "/src/lib/Images/projects/pokedex-lite.jpg"
 import chromaticClimbers from "/src/lib/Images/projects/chromatic-climbers.jpg"
-// import dyzeeDiaries from '/src/lib/images/projects/dyzee-diaries.jpg';
+import dyzeeDiaries from "/src/lib/Images/projects/dyzee-diaries.jpg"
 import Saos from "saos";
 </script>
 
@@ -58,7 +58,7 @@ import Saos from "saos";
             </Saos>
             <Saos once={true} animation={'scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both'}>
             <div class="projects-image">
-                <!-- <a href="https://demo-dyzee-diaries.netlify.app/"><img class="project-img" src={dyzeeDiaries} alt="Dyzee Diaries project"></a> -->
+                <a href="https://demo-dyzee-diaries.netlify.app/"><img class="project-img" src={dyzeeDiaries} alt="Dyzee Diaries project"></a>
             </div>
             </Saos>
         </section>
