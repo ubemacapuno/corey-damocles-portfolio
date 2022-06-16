@@ -21,7 +21,7 @@ __export(stdin_exports, {
 });
 module.exports = __toCommonJS(stdin_exports);
 var import_index_ae8bceff = require("../../chunks/index-ae8bceff.js");
-var portrait = "/_app/assets/portrait-e56196cd.png";
+var portrait = "/_app/assets/portrait-14e0d9fd.jpg";
 var pokedexLite = "/_app/assets/pokedex-lite-9c8ff969.jpg";
 var chromaticClimbers = "/_app/assets/chromatic-climbers-9f7fbf70.jpg";
 var dyzeeDiaries = "/_app/assets/dyzee-diaries-b7eb3c2f.jpg";
