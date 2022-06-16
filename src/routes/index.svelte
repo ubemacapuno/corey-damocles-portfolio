@@ -254,10 +254,6 @@ button span:after {
   transition: 0.2s;
 }
 
-button .header-button:after {
-    content: '↓';
-}
-
 button:hover {
     background: -webkit-linear-gradient(#E15FED, #332FD0);
 }
