@@ -29,13 +29,13 @@ import Saos from "saos";
             <Saos once={true} animation={'fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both'} top={250} bottom={250}>
             <div class="about-me-right">
                 <p>
-                    I am a web developer based in Phoenix, AZ. I have a passion for learning new technologies and started my journey in coding and web development through self-teaching in January 2022. 
+                    Hey! My name is Corey Damocles and I am a freelance web developer based in Phoenix, AZ. I have a passion for learning new technologies and started my coding journey through self-teaching in January 2022. I am a Junior Developer with the <a href="https://purefunc.io/" target="_blank">Pure Func</a> web development agency.
                 </p>
                 <p>
-                    My skills include JavaScript, Node.js, Express.js, Svelte, React, MongoDB, Git, HTML, CSS, and SCSS. I am currently familiarizing myself with Typescript, the MERN stack, and other fun tech stacks!
+                    My skills include JavaScript, Node.js, Express.js, Svelte/Sveltekit, MongoDB, Git, HTML, and CSS/SCSS. I am currently familiarizing myself with React, Typescript, the MERN stack, and other fun tech stacks!
                 </p>
                 <p>
-                    Drop me a line if you’d like to collaborate!
+                    Let's build something together!
                 </p>
             </div>
             </Saos>
@@ -68,7 +68,7 @@ import Saos from "saos";
             <div class="projects-text">
                 <h3>Pokédex Lite</h3>
                 <p>I am an avid Pokémon fan and created this simple Pokédex app to teach myself how to use async functions and promises while using an API. Providing a Pokémon name or number will send a request to the API, which should then respond back with a Pokémon if found in the database. I also incorporated a random function that will randomly choose a Pokémon for the user! The card colors are responsive to the typing of the given Pokémon.</p>
-                <p>HTML, CSS, JavaScript, Pokémon API by <a href="https://pokeapi.co/">PokéAPI.co</a>.</p>
+                <p>HTML, CSS, JavaScript, API by <a href="https://pokeapi.co/">PokéAPI.co</a></p>
                 <a href="https://github.com/ubemacapuno/pokedex-lite"><button class="project-link"><span>Repository</span></button></a>
             </div>
             </Saos>
@@ -84,13 +84,13 @@ import Saos from "saos";
             <div class="projects-text">
                 <h3>Chromatic Climbers</h3>
                 <p>This is a static single-paged website made for the Chromatic Climbers rock-climbing organization in Phoenix, AZ. When building this simple page, I realized that HTML and CSS are powerful on their own, and for a simple one-page website, frameworks and libraries are not always necessary! </p>
-                <p>HTML , SCSS</p>
+                <p>HTML, CSS</p>
                 <a href="https://github.com/ubemacapuno/chromatic-climbers"><button class="project-link"><span>Repository</span></button></a>
             </div>
             </Saos>
             <Saos once={true} animation={'scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both'}>
             <div class="projects-image">
-                <a href="https://github.com/ubemacapuno/chromatic-climbers"><img class="project-img" src={chromaticClimbers} alt="Chromatic Climbers project"></a>
+                <a href="https://demo-chromatic-climbers.netlify.app/"><img class="project-img" src={chromaticClimbers} alt="Chromatic Climbers project"></a>
             </div>
             </Saos>
         </section>

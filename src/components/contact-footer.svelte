@@ -15,8 +15,7 @@
 			<li><a target="_blank" href="https://twitter.com/coreydamo"><img src={twitterIcon} alt="Twitter Logo" class="icon"></a></li>
 		</ul>
 	</header>
-  	<form name="Contact" method="POST" action="POST" data-netlify="true">
-		<input type="hidden" name="form-name" value="Contact" />
+	<form name="contact" method="POST" data-netlify="true">
 		<div class="fields">
 			<div class="field half">
 				<p class="contact-form">Name</p>
@@ -24,7 +23,7 @@
 			</div>
 			<div class="field half">
 				<p class="contact-form">Email</p>
-				<input type="text" name="email" id="email" required/>
+				<input type="email" name="email" id="email" required/>
 			</div>
 			<div class="field half">
 				<p class="contact-form">Subject</p>

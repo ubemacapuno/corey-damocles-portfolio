@@ -2,7 +2,7 @@
     // import Copyright from "svelte-copyright";
 </script>
 <footer>
-    <p>© 2022 Corey Damocles | Coded in <a href="https://svelte.dev/"> Svelte</a></p>
+    <p>© 2022 Corey Damocles | Coded with <a href="https://svelte.dev/">Svelte</a></p>
     <!-- <Copyright>Corey Damocles</Copyright> -->
 </footer>
 
@@ -16,13 +16,8 @@ footer {
     flex-direction: column;
 }
 
-a {
-    color: #E15FED;
-}
-
 p {
     margin: 0;
-    color: var(--nav-text-color);
 }
 
 </style>
