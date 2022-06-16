@@ -1,0 +1,71 @@
+{
+  ".svelte-kit/build/index.js": {
+    "file": "index.js",
+    "src": ".svelte-kit/build/index.js",
+    "isEntry": true,
+    "imports": [
+      "_index-ae8bceff.js"
+    ],
+    "dynamicImports": [
+      ".svelte-kit/build/hooks.js"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "entries/pages/__layout.svelte.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-ae8bceff.js"
+    ],
+    "css": [
+      "assets/entries/pages/__layout.svelte-108e68ad.css"
+    ],
+    "assets": [
+      "assets/codepen-icon-9a8cdbc7.svg",
+      "assets/github-icon-a4823923.svg",
+      "assets/linkedin-icon-a341ba95.svg",
+      "assets/twitter-icon-005a963e.svg"
+    ]
+  },
+  ".svelte-kit/runtime/components/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "src": ".svelte-kit/runtime/components/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-ae8bceff.js"
+    ]
+  },
+  "src/routes/about.svelte": {
+    "file": "entries/pages/about.svelte.js",
+    "src": "src/routes/about.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-ae8bceff.js"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "entries/pages/index.svelte.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-ae8bceff.js"
+    ],
+    "css": [
+      "assets/entries/pages/index.svelte-f4b79b6e.css"
+    ],
+    "assets": [
+      "assets/portrait-e56196cd.png",
+      "assets/pokedex-lite-9c8ff969.jpg",
+      "assets/chromatic-climbers-9f7fbf70.jpg",
+      "assets/dyzee-diaries-b7eb3c2f.jpg"
+    ]
+  },
+  "_index-ae8bceff.js": {
+    "file": "chunks/index-ae8bceff.js"
+  },
+  ".svelte-kit/build/hooks.js": {
+    "file": "chunks/hooks-1c45ba0b.js",
+    "src": ".svelte-kit/build/hooks.js",
+    "isDynamicEntry": true
+  }
+}
