@@ -1,8 +1,8 @@
 <script>
 import portrait from "/src/lib/Images/about/portrait.jpg"
-import pokedexLite from '$lib/images/projects/pokedex-lite.jpg';
-import chromaticClimbers from '$lib/images/projects/chromatic-climbers.jpg';
-import dyzeeDiaries from '$lib/images/projects/dyzee-diaries.jpg';
+import pokedexLite from '/src/lib/images/projects/pokedex-lite.jpg';
+import chromaticClimbers from '/src/lib/images/projects/chromatic-climbers.jpg';
+import dyzeeDiaries from '/src/lib/images/projects/dyzee-diaries.jpg';
 import Saos from "saos";
 </script>
 
