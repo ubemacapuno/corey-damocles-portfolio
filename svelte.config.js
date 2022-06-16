@@ -6,12 +6,6 @@ const config = {
 	preprocess: preprocess(),
 	kit: {
 		adapter: adapter(),
-		prerender: {
-			crawl: true,
-			enabled: true,
-			force: true,
-			pages: ['*'],
-		},
 	}
 };
 
