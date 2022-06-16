@@ -15,7 +15,8 @@
 			<li><a target="_blank" href="https://twitter.com/coreydamo"><img src={twitterIcon} alt="Twitter Logo" class="icon"></a></li>
 		</ul>
 	</header>
-  	<form method="POST" action="POST" data-netlify="true">
+  	<form name="Contact" method="POST" action="POST" data-netlify="true">
+		<input type="hidden" name="form-name" value="Contact" />
 		<div class="fields">
 			<div class="field half">
 				<p class="contact-form">Name</p>
