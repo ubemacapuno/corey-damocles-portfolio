@@ -1,18 +1,18 @@
 <script>
-	// import codepenIcon from '$lib/images/contact/codepen-icon.svg'
-	// import githubIcon from '$lib/images/contact/github-icon.svg'
-	// import linkedinIcon from '$lib/images/contact/linkedin-icon.svg'
-	// import twitterIcon from '$lib/images/contact/twitter-icon.svg'
+	import codepenIcon from "/src/lib/Images/contact/codepen-icon.svg"
+	import githubIcon from "/src/lib/Images/contact/github-icon.svg"
+	import linkedinIcon from "/src/lib/Images/contact/linkedin-icon.svg"
+	import twitterIcon from "/src/lib/Images/contact/twitter-icon.svg"
 </script>
 <div class="page-wrapper">
 	<header>
 		<h2>Let's connect!</h2>
 		<!--Social Media Links / Insert SVGs here-->
 		<ul class="icons">
-			<!-- <li><a target="_blank" href="https://linkedin.com/in/corey-damocles-43709295"><img src={linkedinIcon} alt="Linkedin Logo" class="icon"></a></li>
+			<li><a target="_blank" href="https://linkedin.com/in/corey-damocles-43709295"><img src={linkedinIcon} alt="Linkedin Logo" class="icon"></a></li>
 			<li><a target="_blank" href="https://github.com/ubemacapuno"><img src={githubIcon} alt="Github Logo" class="icon"></a></li>
 			<li><a target="_blank" href="https://codepen.io/corey-damocles"><img src={codepenIcon} alt="Codepen Logo" class="icon"></a></li>
-			<li><a target="_blank" href="https://twitter.com/coreydamo"><img src={twitterIcon} alt="Twitter Logo" class="icon"></a></li> -->
+			<li><a target="_blank" href="https://twitter.com/coreydamo"><img src={twitterIcon} alt="Twitter Logo" class="icon"></a></li>
 		</ul>
 	</header>
   	<form method="post" action="POST" data-netlify="true">
