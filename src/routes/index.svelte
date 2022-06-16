@@ -1,5 +1,5 @@
 <script>
-import portrait from '$lib/images/about/portrait.jpg';
+import portrait from "/src/lib/Images/about/portrait.jpg"
 import pokedexLite from '$lib/images/projects/pokedex-lite.jpg';
 import chromaticClimbers from '$lib/images/projects/chromatic-climbers.jpg';
 import dyzeeDiaries from '$lib/images/projects/dyzee-diaries.jpg';
