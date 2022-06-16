@@ -5,25 +5,13 @@ exports.handler = init({
 	assets: new Set(["favicon.png"]),
 	mimeTypes: {".png":"image/png"},
 	_: {
-		entry: {"file":"start-36597a46.js","js":["start-36597a46.js","chunks/index-44ca6697.js"],"css":[]},
+		entry: {"file":"start-f71de35d.js","js":["start-f71de35d.js","chunks/index-65f0f92f.js"],"css":[]},
 		nodes: [
 			() => Promise.resolve().then(() => require('../server/nodes/0.js')),
 			() => Promise.resolve().then(() => require('../server/nodes/1.js')),
-			() => Promise.resolve().then(() => require('../server/nodes/3.js')),
 			() => Promise.resolve().then(() => require('../server/nodes/2.js'))
 		],
 		routes: [
-			{
-				type: 'page',
-				id: "",
-				pattern: /^\/$/,
-				names: [],
-				types: [],
-				path: "/",
-				shadow: null,
-				a: [0,2],
-				b: [1]
-			},
 			{
 				type: 'page',
 				id: "about",
@@ -32,7 +20,7 @@ exports.handler = init({
 				types: [],
 				path: "/about",
 				shadow: null,
-				a: [0,3],
+				a: [0,2],
 				b: [1]
 			}
 		],
