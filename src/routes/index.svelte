@@ -1,7 +1,7 @@
 <script>
 import portrait from "/src/lib/Images/about/portrait.jpg"
-// import pokedexLite from '/src/lib/images/projects/pokedex-lite.jpg';
-// import chromaticClimbers from '/src/lib/images/projects/chromatic-climbers.jpg';
+import pokedexLite from "/src/lib/Images/projects/pokedex-lite.jpg"
+import chromaticClimbers from "/src/lib/Images/projects/chromatic-climbers.jpg"
 // import dyzeeDiaries from '/src/lib/images/projects/dyzee-diaries.jpg';
 import Saos from "saos";
 </script>
@@ -74,7 +74,7 @@ import Saos from "saos";
             </Saos>
             <Saos once={true} animation={'scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both'}>
             <div class="projects-image">
-                <!-- <a href="https://pokedexlookup.netlify.app/"><img class="project-img" src={pokedexLite} alt="Pokédex Lite project"></a> -->
+                <a href="https://pokedexlookup.netlify.app/"><img class="project-img" src={pokedexLite} alt="Pokédex Lite project"></a>
             </div>
             </Saos>
         </section>
@@ -90,7 +90,7 @@ import Saos from "saos";
             </Saos>
             <Saos once={true} animation={'scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both'}>
             <div class="projects-image">
-                <!-- <a href="https://github.com/ubemacapuno/chromatic-climbers"><img class="project-img" src={chromaticClimbers} alt="Chromatic Climbers project"></a> -->
+                <a href="https://github.com/ubemacapuno/chromatic-climbers"><img class="project-img" src={chromaticClimbers} alt="Chromatic Climbers project"></a>
             </div>
             </Saos>
         </section>
