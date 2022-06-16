@@ -1,4 +1,5 @@
-<script>
+<script context="module">
+export const prerender = true;
 import portrait from "/src/lib/Images/about/portrait.jpg"
 import pokedexLite from "/src/lib/Images/projects/pokedex-lite.jpg"
 import chromaticClimbers from "/src/lib/Images/projects/chromatic-climbers.jpg"
