@@ -19,16 +19,16 @@
 	<form name="contact" method="POST" data-netlify="true">
 		<div class="fields">
 			<div class="field half">
-				<p class="contact-form">Name</p>
+				<p class="contact-form">Name (required)</p>
 				<input type="text" name="name" id="name" required/>
 			</div>
 			<div class="field half">
-				<p class="contact-form">Email</p>
+				<p class="contact-form">Email (required)</p>
 				<input type="email" name="email" id="email" required/>
 			</div>
 			<div class="field half">
 				<p class="contact-form">Subject</p>
-				<input type="text" name="subject" id="subject" required/>
+				<input type="text" name="subject" id="subject"/>
 			</div>
 			<div class="field">
 				<p class="contact-form">Message</p>
@@ -101,8 +101,8 @@ form {
 	padding: 20px 0;
 }
 
-input, textarea, .primary {
-	width: 30rem;
+textarea, #subject, #email, #name {
+	width: 35rem;
 }
 
 .actions {
@@ -116,7 +116,21 @@ textarea {
 }
 
 .primary {
-	color: black;
+	color: white;
+	cursor: pointer;
+	font-size: inherit;
+	font-family: inherit;
+	font-weight: bold;
+	border: 2px solid var(--nav-text-color);
+	padding: 10px;
+	background-color: transparent;
+    transition: all 0.2s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.primary:hover {
+    background-color: var(--primary-color);
 }
 
 .contact-form {
@@ -125,16 +139,23 @@ textarea {
 }
 
 @media (max-width: 900px) {
-	input, textarea, .primary {
-		width: 20rem;
+	textarea, #subject, #email, #name {
+		width: 21rem;
 	}
 	header, form {
 		align-items: center;
 	}
 }
+
 @media (max-width: 350px) {
-	input, textarea, .primary {
-		width: 14rem;
+	textarea, #subject, #email, #name {
+		width: 18rem;
+	}
+}
+
+@media (max-width: 300px) {
+	textarea, #subject, #email, #name {
+		width: 15rem;
 	}
 }
 </style>

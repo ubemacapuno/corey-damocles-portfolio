@@ -2,7 +2,9 @@
     // import Copyright from "svelte-copyright";
 </script>
 <footer>
-    <p>© 2022 Corey Damocles | Coded with <a href="https://svelte.dev/">Svelte</a></p>
+    <p>© 2022 Corey Damocles </p>
+    <p class="pipe">|</p>
+    <p>Coded with <a href="https://svelte.dev/">SvelteKit</a></p>
     <!-- <Copyright>Corey Damocles</Copyright> -->
 </footer>
 
@@ -13,11 +15,20 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 p {
     margin: 0;
 }
 
+@media (max-width: 350px) {
+	footer {
+        flex-direction: column;
+	}
+
+    .pipe {
+        display: none;
+    }
+}
 </style>
