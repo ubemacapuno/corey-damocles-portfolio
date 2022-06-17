@@ -56,7 +56,7 @@ import Saos from "saos";
                 <a href="https://github.com/ubemacapuno/dyzee-diaries"><button class="project-link"><span>Repository</span></button></a>
             </div>
             </Saos>
-            <Saos once={true} animation={'scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both'}>
+            <Saos once={true} animation={'swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both'} top={250} bottom={250}>
             <div class="projects-image">
                 <a href="https://demo-dyzee-diaries.netlify.app/"><img class="project-img" src={dyzeeDiaries} alt="Dyzee Diaries project"></a>
             </div>
@@ -72,7 +72,7 @@ import Saos from "saos";
                 <a href="https://github.com/ubemacapuno/pokedex-lite"><button class="project-link"><span>Repository</span></button></a>
             </div>
             </Saos>
-            <Saos once={true} animation={'scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both'}>
+            <Saos once={true} animation={'swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both'} top={250} bottom={250}>
             <div class="projects-image">
                 <a href="https://pokedexlookup.netlify.app/"><img class="project-img" src={pokedexLite} alt="Pokédex Lite project"></a>
             </div>
@@ -88,7 +88,7 @@ import Saos from "saos";
                 <a href="https://github.com/ubemacapuno/chromatic-climbers"><button class="project-link"><span>Repository</span></button></a>
             </div>
             </Saos>
-            <Saos once={true} animation={'scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both'}>
+            <Saos once={true} animation={'swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both'} top={250} bottom={250}>
             <div class="projects-image">
                 <a href="https://demo-chromatic-climbers.netlify.app/"><img class="project-img" src={chromaticClimbers} alt="Chromatic Climbers project"></a>
             </div>
@@ -137,6 +137,15 @@ h2 {
     padding-top: 10px;
 }
 
+/* .icon {
+	width: 100%;
+	transition: all 0.3s;
+}
+
+.icon:hover {
+	transform:scale(1.2)
+} */
+
 .profile-img {
     max-width: 350px;
     max-height: 350px;
@@ -144,10 +153,6 @@ h2 {
     object-fit: cover;
     overflow: hidden;
     box-shadow: .25rem 3px 3px black;
-}
-
-.project-img {
-    width: 750px;
 }
 
 .wrapper-about-me { 
@@ -162,7 +167,6 @@ h2 {
     flex-direction: row;
     max-width: 1140px;
     padding: 5px 5px 70px 5px; 
-
 }
 
 .about-me-container{
@@ -207,17 +211,22 @@ h2 {
     margin-bottom: 30px;
 }
 
-
 .projects-container {
     margin: 0 5px;
     display: flex;
     align-items: center;
     flex-direction: column;
+    position: relative;
 }
 
 .project-img {
 	min-width: 650px;
     padding: 0 15px;
+    transition: all 0.3s;
+}
+
+.project-img:hover {
+    transform: perspective(650px) rotateY(-20deg) translateY(-15px) rotateX(3deg) scale(1);
 }
 
 button {
@@ -267,7 +276,6 @@ button:hover span:after {
   right: 0;
 }
 
-
 @media (max-width: 900px) {
 	.about-me {
         flex-direction: column;
@@ -303,6 +311,9 @@ button:hover span:after {
 	    min-width: 600px;
         padding: 15px;
     }
+    .project-img:hover {
+    transform: none;
+}
 }
 
 @media (max-width: 650px) {
@@ -367,6 +378,19 @@ button:hover span:after {
     }
     100% {
       transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+@keyframes -global-swing-in-top-fwd {
+    0% {
+      transform: rotateX(-100deg);
+      transform-origin: top;
+      opacity: 0;
+    }
+    100% {
+      transform: rotateX(0deg);
+      transform-origin: top;
       opacity: 1;
     }
   }
