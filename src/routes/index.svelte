@@ -323,7 +323,7 @@ button:hover span:after {
         max-height: 200px;
     }
     .about-me-right, .about-me-left {
-        padding: 0px 5px;
+        padding: 0px 0px;
     }
 
     .project-img {
