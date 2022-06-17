@@ -74,7 +74,7 @@ import Saos from "saos";
             </Saos>
             <Saos once={true} animation={'swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both'} top={250} bottom={250}>
             <div class="projects-image">
-                <a href="https://pokedexlookup.netlify.app/"><img class="project-img" src={pokedexLite} alt="Pokédex Lite project"></a>
+                <a href="https://codepen.io/corey-damocles/pen/rNJZQXB"><img class="project-img" src={pokedexLite} alt="Pokédex Lite project"></a>
             </div>
             </Saos>
         </section>
@@ -136,15 +136,6 @@ h2 {
     margin-top: 0;
     padding-top: 10px;
 }
-
-/* .icon {
-	width: 100%;
-	transition: all 0.3s;
-}
-
-.icon:hover {
-	transform:scale(1.2)
-} */
 
 .profile-img {
     max-width: 350px;
