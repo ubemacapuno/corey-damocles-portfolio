@@ -122,7 +122,7 @@ header {
 }
 
 h1 {
-    padding-left: 5px;
+    padding: 5px;
 }
 
 h1, .projects-container h2 { 
