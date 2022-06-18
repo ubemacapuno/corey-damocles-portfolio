@@ -2302,7 +2302,7 @@ function set_paths(paths) {
 }
 function set_prerendering(value) {
 }
-const template = ({ head, body, assets: assets2, nonce }) => '<!DOCTYPE html>\n<html lang="en">\n	<head>\n		<meta charset="utf-8" />\n		<link rel="icon" href="' + assets2 + '/favicon.png" />\n		<meta name="viewport" content="width=device-width, initial-scale=1" />\n		' + head + "\n	</head>\n	<body>\n		<div>" + body + '</div>\n\n		<!-- "/static/netlify-form-helper.html" -->\n		<form name="test" netlify netlify-honeypot="bot-field" hidden>\n			<input type="text" name="name" />\n			<input type="email" name="email" />\n			<textarea name="message"></textarea>\n		</form>\n	</body>\n</html>\n';
+const template = ({ head, body, assets: assets2, nonce }) => '<!DOCTYPE html>\r\n<html lang="en">\r\n	<head>\r\n		<meta charset="utf-8" />\r\n		<link rel="icon" href="' + assets2 + '/favicon.png" />\r\n		<meta name="viewport" content="width=device-width, initial-scale=1" />\r\n		' + head + "\r\n	</head>\r\n	<body>\r\n		<div>" + body + '</div>\r\n\r\n		<!-- "/static/netlify-form-helper.html" -->\r\n		<form name="test" netlify netlify-honeypot="bot-field" hidden>\r\n			<input type="text" name="name" />\r\n			<input type="email" name="email" />\r\n			<textarea name="message"></textarea>\r\n		</form>\r\n	</body>\r\n</html>\r\n';
 let read = null;
 set_paths({ "base": "", "assets": "" });
 let default_protocol = "https";
