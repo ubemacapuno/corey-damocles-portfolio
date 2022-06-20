@@ -4,7 +4,10 @@ This is my most up-to-date portfolio with my recent projects and contact links, 
 
 ## How It's Made:
 
-**Tech used:** Svelte/SvelteKit, JavaScript/HTML/CSS 
+**Tech used:** 
+
+Svelte/SvelteKit, JavaScript/HTML/CSS
+
 To use this repository, please be sure to checkout [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte), and remember to install the proper packages with <strong>npm -install</strong>.
 
 ## Optimizations:
