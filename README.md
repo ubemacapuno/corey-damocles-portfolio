@@ -4,7 +4,7 @@ This is my most up-to-date portfolio with my recent projects and contact links, 
 
  <tr>
     <td width="100%"  style="align:center;" valign="top">
-            <img src="https://github.com/ubemacapuno/images-for-github-readme/blob/main/corey-damocles-portfolio.gif?raw=true" width="100%"  alt="Porfolio Gif."/>
+            <img src="https://github.com/ubemacapuno/images-for-github-readme/blob/main/corey-damocles-portfolio.gif?raw=true" width="100%"  alt="Portfolio Gif."/>
     </td>
   </tr>
 
@@ -18,7 +18,7 @@ To use this repository, please be sure to checkout [`create-svelte`](https://git
 
 ## Optimizations:
 
-As I learn more, I will plan to apply new features to my portfolio. When I get more projects under my belt, I'd like to update the porfolio section and have more interactivity (ex. modals), and maybe include a blog section.
+As I learn more, I will plan to apply new features to my portfolio. When I get more projects under my belt, I'd like to update the portfolio section and have more interactivity (ex. modals), and maybe include a blog section.
 
 ## Lessons Learned:
 
