@@ -2,6 +2,12 @@
 
 This is my most up-to-date portfolio with my recent projects and contact links, developed using SvelteKit.
 
+ <tr>
+    <td width="100%"  style="align:center;" valign="top">
+            <img src="https://github.com/ubemacapuno/images-for-github-readme/blob/main/corey-damocles-portfolio.gif?raw=true" width="100%"  alt="Porfolio Gif."/>
+    </td>
+  </tr>
+
 ## How It's Made:
 
 **Tech used:** 
