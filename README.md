@@ -1,38 +1,25 @@
-# create-svelte
+## Corey Damocles Portfolio: <a target="_blank" href="https://coreydamocles.netlify.app/">Visit My Portfolio Here</a>!
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+This is my most up-to-date portfolio with my recent projects and contact links, developed using SvelteKit.
 
-## Creating a project
+ <tr>
+    <td width="100%"  style="align:center;" valign="top">
+            <img src="https://github.com/ubemacapuno/images-for-github-readme/blob/main/corey-damocles-portfolio.gif?raw=true" width="100%"  alt="Porfolio Gif."/>
+    </td>
+  </tr>
 
-If you're seeing this, you've probably already done this step. Congrats!
+## How It's Made:
 
-```bash
-# create a new project in the current directory
-npm init svelte
+**Tech used:** 
 
-# create a new project in my-app
-npm init svelte my-app
-```
+Svelte/SvelteKit, JavaScript/HTML/CSS
 
-## Developing
+To use this repository, please be sure to checkout [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte), and remember to install the proper packages with <strong>npm -install</strong>.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Optimizations:
 
-```bash
-npm run dev
+As I learn more, I will plan to apply new features to my portfolio. When I get more projects under my belt, I'd like to update the porfolio section and have more interactivity (ex. modals), and maybe include a blog section.
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+## Lessons Learned:
 
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+I learned that to enable contact-form-submission with Netlify hosted sites, Netlify will search through the application's HTML for forms containing "data-netlify="true"". However, when building the application with a front-end library such as SvelteKit, the form data will not be detected because when the application builds, the HTML is dynamically rendered with JavaScript, meaning there is no HTML for Netlify to search. To get around this, the application needs to pre-render the HTML so that Netlify can catch the proper data during the application build to set-up form-submission. I am still trying to fix for this, so the form-submission is currently broken.

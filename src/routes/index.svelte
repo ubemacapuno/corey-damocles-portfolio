@@ -29,7 +29,7 @@ import Saos from "saos";
             <Saos once={true} animation={'fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both'} top={250} bottom={250}>
             <div class="about-me-right">
                 <p>
-                    Hey! My name is Corey Damocles and I am a freelance web developer based in Phoenix, AZ. I have a passion for learning new technologies and started my coding journey through self-teaching in January 2022. I joined the <a href="https://purefunc.io/" target="_blank">Pure Func</a> web development agency as a front-end developer in April 2022.
+                    Hey! My name is Corey Damocles and I am a freelance web developer based in Phoenix, AZ. I have a passion for learning new technologies and started my coding journey through self-teaching in January 2022. I joined the <a href="https://purefunc.io/" target="_blank">Pure Func</a> web development agency as a front-end developer intern in April 2022.
                 </p>
                 <p>
                     My skills include JavaScript, Node.js, Express.js, Svelte/Sveltekit, MongoDB, Git, HTML, and CSS/SCSS. I am currently familiarizing myself with React, Typescript, the MERN stack, and other fun tech stacks!
