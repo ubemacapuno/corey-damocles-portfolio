@@ -53,7 +53,7 @@ import Saos from "saos";
                 <h3>Dyzee Diaries</h3>
                 <p>The Dyzee Diaries landing page was a collaborative effort with the Pure Func team. Our client had a slow-loading WordPress website, and it was our goal to recreate and optimize the static website using SvelteKit. We split up our tasks and used a tracker tool to track and update our task progress. My tasks included styling/animations, content, images, and components. This application was my first introduction to using and deploying a Svelte application.</p>
                 <p>Svelte / SvelteKit, HTML, CSS, JavaScript</p>
-                <a href="https://github.com/ubemacapuno/dyzee-diaries"><button class="project-link"><span>Repository</span></button></a>
+                <a href="https://demo-dyzee-diaries.netlify.app/"><button class="project-link"><span>See Live Demo</span></button></a>
             </div>
             </Saos>
             <Saos once={true} animation={'swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both'} top={250} bottom={250}>
@@ -69,7 +69,7 @@ import Saos from "saos";
                 <h3>Pokédex Lite</h3>
                 <p>I am an avid Pokémon fan and created this simple Pokédex app to teach myself how to use async functions and promises while using an API. Providing a Pokémon name or number will send a request to the API, which should then respond back with a Pokémon if found in the database. I also incorporated a random function that will randomly choose a Pokémon for the user! The card colors are responsive to the typing of the given Pokémon.</p>
                 <p>HTML, CSS, JavaScript, API by <a href="https://pokeapi.co/">PokéAPI.co</a></p>
-                <a href="https://github.com/ubemacapuno/pokedex-lite"><button class="project-link"><span>Repository</span></button></a>
+                <a href="https://github.com/ubemacapuno/pokedex-lite"><button class="project-link"><span>See Repository</span></button></a>
             </div>
             </Saos>
             <Saos once={true} animation={'swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both'} top={250} bottom={250}>
@@ -85,7 +85,7 @@ import Saos from "saos";
                 <h3>Chromatic Climbers</h3>
                 <p>This is a static single-paged website made for the Chromatic Climbers rock-climbing organization in Phoenix, AZ. When building this simple page, I realized that HTML and CSS are powerful on their own, and for a simple one-page website, frameworks and libraries are not always necessary! </p>
                 <p>HTML, CSS</p>
-                <a href="https://github.com/ubemacapuno/chromatic-climbers"><button class="project-link"><span>Repository</span></button></a>
+                <a href="https://github.com/ubemacapuno/chromatic-climbers"><button class="project-link"><span>See Repository</span></button></a>
             </div>
             </Saos>
             <Saos once={true} animation={'swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both'} top={250} bottom={250}>
