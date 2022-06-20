@@ -18,7 +18,7 @@ To use this repository, please be sure to checkout [`create-svelte`](https://git
 
 ## Optimizations:
 
-I'm new to using front-end frameworks, so as I learn more I will plan to apply new features to my portfolio.
+As I learn more, I will plan to apply new features to my portfolio. When I get more projects under my belt, I'd like to update the porfolio section and have more interactivity (ex. modals), and maybe include a blog section.
 
 ## Lessons Learned:
 
