@@ -95,6 +95,32 @@ import Saos from "saos";
             </Saos>
         </section>
     </div>  
+    <form name="contact" method="POST" data-netlify="true">
+		<div class="fields">
+			<div class="field half">
+				<p class="contact-form">Name (required)</p>
+				<input type="text" name="name" id="name" required/>
+			</div>
+			<div class="field half">
+				<p class="contact-form">Email (required)</p>
+				<input type="email" name="email" id="email" required/>
+			</div>
+			<div class="field half">
+				<p class="contact-form">Subject</p>
+				<input type="text" name="subject" id="subject"/>
+			</div>
+			<div class="field">
+				<p class="contact-form">Message</p>
+				<textarea name="message" id="message" rows="4" required></textarea>
+			</div>
+			<div class="field">
+				<div data-netlify-recaptcha="true"></div>
+			</div>
+			<div class="actions">
+				<input type="submit" value="Send Message" class="primary" />
+			</div>
+		</div>
+	</form>
 </body>
 
 <style>
