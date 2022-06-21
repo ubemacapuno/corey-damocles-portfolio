@@ -24,32 +24,9 @@
 			<li><a target="_blank" href="https://twitter.com/coreydamo"><img src={twitterIcon} alt="Twitter Logo" class="icon"></a></li>
 		</ul>
 	</header>
-	<form name="contact" method="POST" data-netlify="true">
-		<div class="fields">
-			<div class="field half">
-				<p class="contact-form">Name (required)</p>
-				<input type="text" name="name" id="name" required/>
-			</div>
-			<div class="field half">
-				<p class="contact-form">Email (required)</p>
-				<input type="email" name="email" id="email" required/>
-			</div>
-			<div class="field half">
-				<p class="contact-form">Subject</p>
-				<input type="text" name="subject" id="subject"/>
-			</div>
-			<div class="field">
-				<p class="contact-form">Message</p>
-				<textarea name="message" id="message" rows="4" required></textarea>
-			</div>
-			<div class="field">
-				<div data-netlify-recaptcha="true"></div>
-			</div>
-			<div class="actions">
-				<input type="submit" value="Send Message" class="primary" />
-			</div>
-		</div>
-	</form>
+	<div class="actions">
+		<a target="_blank" rel="noopener noreferrer" href="mailto:damoclescj@gmail.com"><input type="submit" value="Send Email" class="primary" /></a>
+	</div>
 </div>
 <style>
 
@@ -73,6 +50,7 @@ ul {
 	justify-content: center;
 	align-items: center;
 	padding: 0;
+	margin: 16px 0;
 }
 
 li {
@@ -101,26 +79,11 @@ form {
 	justify-content: flex-end;
 }
 
-.field {
-	margin-bottom: 20px;	
-}
-
-.fields {
-	padding: 20px 0;
-}
-
-textarea, #subject, #email, #name {
-	width: 35rem;
-}
-
 .actions {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-}
-
-textarea {
-   resize: none;
+	margin: 16px;
 }
 
 .primary {
@@ -134,36 +97,10 @@ textarea {
 	background-color: transparent;
     transition: all 0.2s;
     cursor: pointer;
-    margin: 5px;
 }
 
 .primary:hover {
     background-color: var(--primary-color);
 }
 
-.contact-form {
-	margin: 0;
-	color: white;
-}
-
-@media (max-width: 900px) {
-	textarea, #subject, #email, #name {
-		width: 21rem;
-	}
-	header, form {
-		align-items: center;
-	}
-}
-
-@media (max-width: 350px) {
-	textarea, #subject, #email, #name {
-		width: 18rem;
-	}
-}
-
-@media (max-width: 300px) {
-	textarea, #subject, #email, #name {
-		width: 15rem;
-	}
-}
 </style>
