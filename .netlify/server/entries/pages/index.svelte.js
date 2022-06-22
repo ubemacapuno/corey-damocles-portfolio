@@ -90,9 +90,9 @@ const router = browser;
 const Routes = (0, import_index_ae8bceff.c)(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css);
   return `${(0, import_index_ae8bceff.v)(Seo, "Seo").$$render($$result, {
-    title: "Contact",
-    description: "Contact for more information",
-    pathname: "/contact"
+    title: "Corey Damocles - Portfolio",
+    description: "Portfolio Homepage",
+    pathname: "/"
   }, {}, {})}
 
 ${$$result.head += `${$$result.title = `<title>Corey Damocles - Portfolio</title>`, ""}`, ""}
