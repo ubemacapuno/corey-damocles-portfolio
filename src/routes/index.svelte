@@ -1,10 +1,10 @@
 <script context="module">
 import { browser, dev } from '$app/env';
-import Seo from "/src/components/seo.svelte";
-import portrait from "/src/lib/Images/about/portrait.jpg"
-import pokedexLite from "/src/lib/Images/projects/pokedex-lite.jpg"
-import chromaticClimbers from "/src/lib/Images/projects/chromatic-climbers.jpg"
-import dyzeeDiaries from "/src/lib/Images/projects/dyzee-diaries.jpg"
+import Seo from "$lib/components/seo.svelte";
+import portrait from "$lib//Images/about/portrait.jpg"
+import pokedexLite from "$lib/Images/projects/pokedex-lite.jpg"
+import chromaticClimbers from "$lib/Images/projects/chromatic-climbers.jpg"
+import dyzeeDiaries from "$lib/Images/projects/dyzee-diaries.jpg"
 import Saos from "saos";
 export const router = browser;
 </script>
