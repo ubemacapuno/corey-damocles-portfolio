@@ -1,10 +1,15 @@
 <script context="module">
+import { browser, dev } from '$app/env';
+import Seo from "/src/components/seo.svelte";
 import portrait from "/src/lib/Images/about/portrait.jpg"
 import pokedexLite from "/src/lib/Images/projects/pokedex-lite.jpg"
 import chromaticClimbers from "/src/lib/Images/projects/chromatic-climbers.jpg"
 import dyzeeDiaries from "/src/lib/Images/projects/dyzee-diaries.jpg"
 import Saos from "saos";
+export const router = browser;
 </script>
+
+<Seo title="Contact" description="Contact for more information" pathname="/contact" />
 
 <svelte:head>
     <title>Corey Damocles - Portfolio</title>
