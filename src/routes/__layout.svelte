@@ -5,8 +5,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </svelte:head>
 <script context="module">
-    import ContactFooter from "../components/contact-footer.svelte"
-    import Footer from "../components/footer.svelte"
+    import ContactFooter from "$lib/components/contact-footer.svelte"
+    import Footer from "$lib/components/footer.svelte"
     import "../app.css"
 </script>
 <slot></slot>
