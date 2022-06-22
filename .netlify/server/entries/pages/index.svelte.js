@@ -83,7 +83,7 @@ ${$$result.head += `${$$result.title = `<title>${(0, import_index_ae8bceff.e)(si
 });
 var index_svelte_svelte_type_style_lang = "";
 const css = {
-  code: ".svelte-10mzafu.svelte-10mzafu,.svelte-10mzafu.svelte-10mzafu:after,.svelte-10mzafu.svelte-10mzafu:before{box-sizing:border-box}header.svelte-10mzafu.svelte-10mzafu{scroll-behavior:smooth}body.svelte-10mzafu.svelte-10mzafu{margin:0\r\n}body.svelte-10mzafu.svelte-10mzafu,.projects-container.svelte-10mzafu.svelte-10mzafu{background-color:var(--background-color)}header.svelte-10mzafu.svelte-10mzafu{display:flex;align-items:center;justify-content:center;min-height:100vh}h1.svelte-10mzafu.svelte-10mzafu{padding:5px}h1.svelte-10mzafu.svelte-10mzafu,.projects-container.svelte-10mzafu h2.svelte-10mzafu{background:-webkit-linear-gradient(#E15FED, #332FD0);-webkit-background-clip:text;-webkit-text-fill-color:transparent}h2.svelte-10mzafu.svelte-10mzafu{text-align:center;margin-top:0;padding-top:10px}.profile-img.svelte-10mzafu.svelte-10mzafu{max-width:350px;max-height:350px;border-radius:5px;object-fit:cover;overflow:hidden;box-shadow:.25rem 3px 3px black}.wrapper-about-me.svelte-10mzafu.svelte-10mzafu{margin:0 auto;padding:0 5px;max-width:900px}.wrapper-projects.svelte-10mzafu.svelte-10mzafu{display:flex;align-items:center;flex-direction:row;max-width:1140px;padding:5px 5px 70px 5px}.about-me-container.svelte-10mzafu.svelte-10mzafu{background-color:#000;background-image:linear-gradient(to right top,#E15FED,#9254C8,#332FD0)}.about-me-container.svelte-10mzafu h2.svelte-10mzafu{color:white}.about-me.svelte-10mzafu.svelte-10mzafu{display:flex;align-items:center;justify-content:center;flex-direction:row;min-height:550px}.about-me-right.svelte-10mzafu.svelte-10mzafu{padding-left:10px;margin-left:40px;display:flex;align-items:flex-start;flex-direction:column;max-width:380px}.about-me-left.svelte-10mzafu.svelte-10mzafu{padding-right:10px;margin-right:40px;display:flex;align-items:center;flex-direction:column}.about-me.svelte-10mzafu p.svelte-10mzafu{color:white}.about-me.svelte-10mzafu p.svelte-10mzafu:last-child{margin-bottom:30px}.projects-container.svelte-10mzafu.svelte-10mzafu{margin:0 5px;display:flex;align-items:center;flex-direction:column;position:relative}.project-img.svelte-10mzafu.svelte-10mzafu{min-width:650px;padding:0 15px;transition:all 0.3s}.project-img.svelte-10mzafu.svelte-10mzafu:hover{transform:perspective(650px) rotateY(-20deg) translateY(-15px) rotateX(3deg) scale(1)}button.svelte-10mzafu.svelte-10mzafu{margin-bottom:16px}button.svelte-10mzafu.svelte-10mzafu{cursor:pointer;font-size:inherit;font-family:inherit;font-weight:bold;border:2px solid var(--nav-text-color);padding:10px;background-color:transparent;transition:all 0.2s;cursor:pointer;margin:5px}button.svelte-10mzafu span.svelte-10mzafu{cursor:pointer;display:inline-block;position:relative;transition:0.2s;color:white}button.svelte-10mzafu span.svelte-10mzafu:after{content:'\\00bb';position:absolute;opacity:0;top:0;right:-20px;transition:0.2s}button.svelte-10mzafu.svelte-10mzafu:hover{background:-webkit-linear-gradient(#E15FED, #332FD0)}button.svelte-10mzafu:hover span.svelte-10mzafu{padding-right:25px}button.svelte-10mzafu:hover span.svelte-10mzafu:after{opacity:1;right:0}@media(max-width: 900px){.about-me.svelte-10mzafu.svelte-10mzafu{flex-direction:column}.about-me-right.svelte-10mzafu.svelte-10mzafu,.about-me-left.svelte-10mzafu.svelte-10mzafu{padding:0;margin:0}.profile-img.svelte-10mzafu.svelte-10mzafu{max-width:270px;max-height:270px;margin:30px 0}.wrapper-about-me.svelte-10mzafu.svelte-10mzafu{max-width:960px}.wrapper-projects.svelte-10mzafu.svelte-10mzafu{flex-direction:column;max-width:960px}.projects-container.svelte-10mzafu.svelte-10mzafu{margin:0}.about-me.svelte-10mzafu p.svelte-10mzafu{margin:0.4rem 0}.project-img.svelte-10mzafu.svelte-10mzafu{min-width:600px;padding:15px}.project-img.svelte-10mzafu.svelte-10mzafu:hover{transform:none}}@media(max-width: 650px){.project-img.svelte-10mzafu.svelte-10mzafu{min-width:350px}}@media(max-width: 450px){h3.svelte-10mzafu.svelte-10mzafu{border-bottom:1px solid var(--nav-text-color)}.profile-img.svelte-10mzafu.svelte-10mzafu{max-width:200px;max-height:200px}.about-me-right.svelte-10mzafu.svelte-10mzafu,.about-me-left.svelte-10mzafu.svelte-10mzafu{padding:0px 0px}.project-img.svelte-10mzafu.svelte-10mzafu{min-width:200px}}@keyframes from-left{0%{transform:rotateX(50deg) translateX(-200vw) skewX(-50deg);opacity:1}100%{transform:rotateX(0deg) translateX(0) skewX(0deg);opacity:1}}@keyframes from-right{0%{transform:rotateX(-50deg) translateX(200vw) skewX(50deg);opacity:1}100%{transform:rotateX(0deg) translateX(0) skewX(0deg);opacity:1}}@keyframes fade-in{0%{opacity:0}100%{opacity:1}}@keyframes scale-in-center{0%{transform:scale(0);opacity:1}100%{transform:scale(1);opacity:1}}@keyframes swing-in-top-fwd{0%{transform:rotateX(-100deg);transform-origin:top;opacity:0}100%{transform:rotateX(0deg);transform-origin:top;opacity:1}}",
+  code: ".svelte-1kbuqvv.svelte-1kbuqvv,.svelte-1kbuqvv.svelte-1kbuqvv:after,.svelte-1kbuqvv.svelte-1kbuqvv:before{box-sizing:border-box}header.svelte-1kbuqvv.svelte-1kbuqvv{scroll-behavior:smooth}body.svelte-1kbuqvv.svelte-1kbuqvv{margin:0\r\n}body.svelte-1kbuqvv.svelte-1kbuqvv,.projects-container.svelte-1kbuqvv.svelte-1kbuqvv{background-color:var(--background-color)}header.svelte-1kbuqvv.svelte-1kbuqvv{display:flex;align-items:center;justify-content:center;min-height:100vh}h1.svelte-1kbuqvv.svelte-1kbuqvv{padding:5px}h1.svelte-1kbuqvv.svelte-1kbuqvv,.projects-container.svelte-1kbuqvv h2.svelte-1kbuqvv{background:-webkit-linear-gradient(#E15FED, #332FD0);-webkit-background-clip:text;-webkit-text-fill-color:transparent}h2.svelte-1kbuqvv.svelte-1kbuqvv{text-align:center;margin-top:0;padding-top:10px}.profile-img.svelte-1kbuqvv.svelte-1kbuqvv{max-width:350px;max-height:350px;border-radius:5px;object-fit:cover;overflow:hidden;box-shadow:.25rem 3px 3px black}.wrapper-about-me.svelte-1kbuqvv.svelte-1kbuqvv{margin:0 auto;padding:0 5px;max-width:900px}.wrapper-projects.svelte-1kbuqvv.svelte-1kbuqvv{display:flex;align-items:center;flex-direction:row;max-width:1140px;padding:5px 5px 70px 5px}.about-me-container.svelte-1kbuqvv.svelte-1kbuqvv{background-color:#000;background-image:linear-gradient(to right top,#E15FED,#9254C8,#332FD0)}.about-me-container.svelte-1kbuqvv h2.svelte-1kbuqvv{color:white}.about-me.svelte-1kbuqvv.svelte-1kbuqvv{display:flex;align-items:center;justify-content:center;flex-direction:row;min-height:550px}.about-me-right.svelte-1kbuqvv.svelte-1kbuqvv{padding-left:10px;margin-left:40px;display:flex;align-items:flex-start;flex-direction:column;max-width:380px}.about-me-left.svelte-1kbuqvv.svelte-1kbuqvv{padding-right:10px;margin-right:40px;display:flex;align-items:center;flex-direction:column}.about-me.svelte-1kbuqvv p.svelte-1kbuqvv{color:white}.about-me.svelte-1kbuqvv p.svelte-1kbuqvv:last-child{margin-bottom:30px}.projects-container.svelte-1kbuqvv.svelte-1kbuqvv{margin:0 5px;display:flex;align-items:center;flex-direction:column;position:relative}.project-img.svelte-1kbuqvv.svelte-1kbuqvv{min-width:650px;padding:0 15px;transition:all 0.3s}.project-img.svelte-1kbuqvv.svelte-1kbuqvv:hover{transform:perspective(650px) rotateY(-20deg) translateY(-15px) rotateX(3deg) scale(1)}button.svelte-1kbuqvv.svelte-1kbuqvv{margin-bottom:16px}button.svelte-1kbuqvv.svelte-1kbuqvv{cursor:pointer;font-size:inherit;font-family:inherit;font-weight:bold;border:2px solid var(--nav-text-color);padding:10px;background-color:transparent;transition:all 0.2s;cursor:pointer;margin:5px}button.svelte-1kbuqvv span.svelte-1kbuqvv{cursor:pointer;display:inline-block;position:relative;transition:0.2s;color:white}button.svelte-1kbuqvv span.svelte-1kbuqvv:after{content:'\\00bb';position:absolute;opacity:0;top:0;right:-20px;transition:0.2s}button.svelte-1kbuqvv.svelte-1kbuqvv:hover{background-color:var(--primary-color)}button.svelte-1kbuqvv:hover span.svelte-1kbuqvv{padding-right:25px}button.svelte-1kbuqvv:hover span.svelte-1kbuqvv:after{opacity:1;right:0}@media(max-width: 900px){.about-me.svelte-1kbuqvv.svelte-1kbuqvv{flex-direction:column}.about-me-right.svelte-1kbuqvv.svelte-1kbuqvv,.about-me-left.svelte-1kbuqvv.svelte-1kbuqvv{padding:0;margin:0}.profile-img.svelte-1kbuqvv.svelte-1kbuqvv{max-width:270px;max-height:270px;margin:30px 0}.wrapper-about-me.svelte-1kbuqvv.svelte-1kbuqvv{max-width:960px}.wrapper-projects.svelte-1kbuqvv.svelte-1kbuqvv{flex-direction:column;max-width:960px}.projects-container.svelte-1kbuqvv.svelte-1kbuqvv{margin:0}.about-me.svelte-1kbuqvv p.svelte-1kbuqvv{margin:0.4rem 0}.project-img.svelte-1kbuqvv.svelte-1kbuqvv{min-width:600px;padding:15px}.project-img.svelte-1kbuqvv.svelte-1kbuqvv:hover{transform:none}}@media(max-width: 650px){.project-img.svelte-1kbuqvv.svelte-1kbuqvv{min-width:350px}}@media(max-width: 450px){h3.svelte-1kbuqvv.svelte-1kbuqvv{border-bottom:1px solid var(--nav-text-color)}.profile-img.svelte-1kbuqvv.svelte-1kbuqvv{max-width:200px;max-height:200px}.about-me-right.svelte-1kbuqvv.svelte-1kbuqvv,.about-me-left.svelte-1kbuqvv.svelte-1kbuqvv{padding:0px 0px}.project-img.svelte-1kbuqvv.svelte-1kbuqvv{min-width:200px}}@keyframes from-left{0%{transform:rotateX(50deg) translateX(-200vw) skewX(-50deg);opacity:1}100%{transform:rotateX(0deg) translateX(0) skewX(0deg);opacity:1}}@keyframes from-right{0%{transform:rotateX(-50deg) translateX(200vw) skewX(50deg);opacity:1}100%{transform:rotateX(0deg) translateX(0) skewX(0deg);opacity:1}}@keyframes fade-in{0%{opacity:0}100%{opacity:1}}@keyframes scale-in-center{0%{transform:scale(0);opacity:1}100%{transform:scale(1);opacity:1}}@keyframes swing-in-top-fwd{0%{transform:rotateX(-100deg);transform-origin:top;opacity:0}100%{transform:rotateX(0deg);transform-origin:top;opacity:1}}",
   map: null
 };
 const router = browser;
@@ -96,33 +96,33 @@ const Routes = (0, import_index_ae8bceff.c)(($$result, $$props, $$bindings, slot
   }, {}, {})}
 
 ${$$result.head += `${$$result.title = `<title>Corey Damocles - Portfolio</title>`, ""}`, ""}
-<header class="${"svelte-10mzafu"}">${(0, import_index_ae8bceff.v)(Saos, "Saos").$$render($$result, {
+<header class="${"svelte-1kbuqvv"}">${(0, import_index_ae8bceff.v)(Saos, "Saos").$$render($$result, {
     once: true,
     animation: "fade-in 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both",
     top: 250,
     bottom: 250
   }, {}, {
     default: () => {
-      return `<h1 class="${"svelte-10mzafu"}">I&#39;m Corey, your next Web Developer. Ready to change the world?</h1>`;
+      return `<h1 class="${"svelte-1kbuqvv"}">I&#39;m Corey, your next Web Developer. Ready to change the world?</h1>`;
     }
   })}</header>
-<body class="${"svelte-10mzafu"}">
-    <div class="${"about-me-container svelte-10mzafu"}" id="${"about-me-container"}">${(0, import_index_ae8bceff.v)(Saos, "Saos").$$render($$result, {
+<body class="${"svelte-1kbuqvv"}">
+    <div class="${"about-me-container svelte-1kbuqvv"}" id="${"about-me-container"}">${(0, import_index_ae8bceff.v)(Saos, "Saos").$$render($$result, {
     once: true,
     animation: "fade-in 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both",
     top: 250,
     bottom: 250
   }, {}, {
     default: () => {
-      return `<h2 class="${"svelte-10mzafu"}">About Me</h2>`;
+      return `<h2 class="${"svelte-1kbuqvv"}">About Me</h2>`;
     }
   })}
-        <section class="${"about-me wrapper-about-me svelte-10mzafu"}"><div class="${"about-me-left svelte-10mzafu"}">${(0, import_index_ae8bceff.v)(Saos, "Saos").$$render($$result, {
+        <section class="${"about-me wrapper-about-me svelte-1kbuqvv"}"><div class="${"about-me-left svelte-1kbuqvv"}">${(0, import_index_ae8bceff.v)(Saos, "Saos").$$render($$result, {
     once: true,
     animation: "scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both"
   }, {}, {
     default: () => {
-      return `<img${(0, import_index_ae8bceff.a)("src", portrait, 0)} alt="${"Profile of Corey"}" class="${"profile-img svelte-10mzafu"}">`;
+      return `<img${(0, import_index_ae8bceff.a)("src", portrait, 0)} alt="${"Profile of Corey"}" class="${"profile-img svelte-1kbuqvv"}">`;
     }
   })}</div>
             ${(0, import_index_ae8bceff.v)(Saos, "Saos").$$render($$result, {
@@ -132,37 +132,37 @@ ${$$result.head += `${$$result.title = `<title>Corey Damocles - Portfolio</title
     bottom: 250
   }, {}, {
     default: () => {
-      return `<div class="${"about-me-right svelte-10mzafu"}"><p class="${"svelte-10mzafu"}">Hey! My name is Corey Damocles and I am a freelance web developer based in Phoenix, AZ. I have a passion for learning new technologies and started my coding journey through self-teaching in January 2022. I joined the <a href="${"https://purefunc.io/"}" target="${"_blank"}" class="${"svelte-10mzafu"}">Pure Func</a> web development agency as a front-end developer intern in April 2022.
+      return `<div class="${"about-me-right svelte-1kbuqvv"}"><p class="${"svelte-1kbuqvv"}">Hey! My name is Corey Damocles and I am a freelance web developer based in Phoenix, AZ. I have a passion for learning new technologies and started my coding journey through self-teaching in January 2022. I joined the <a href="${"https://purefunc.io/"}" target="${"_blank"}" class="${"svelte-1kbuqvv"}">Pure Func</a> web development agency as a front-end developer intern in April 2022.
                 </p>
-                <p class="${"svelte-10mzafu"}">My skills include JavaScript, Node.js, Express.js, Svelte/Sveltekit, MongoDB, Git, HTML, and CSS/SCSS. I am currently familiarizing myself with React, Typescript, the MERN stack, and other fun tech stacks!
+                <p class="${"svelte-1kbuqvv"}">My skills include JavaScript, Node.js, Express.js, Svelte/Sveltekit, MongoDB, Git, HTML, and CSS/SCSS. I am currently familiarizing myself with React, Typescript, the MERN stack, and other fun tech stacks!
                 </p>
-                <p class="${"svelte-10mzafu"}">Let&#39;s build something together!
+                <p class="${"svelte-1kbuqvv"}">Let&#39;s build something together!
                 </p></div>`;
     }
   })}</section></div>
 
     
-    <div class="${"projects-container svelte-10mzafu"}">${(0, import_index_ae8bceff.v)(Saos, "Saos").$$render($$result, {
+    <div class="${"projects-container svelte-1kbuqvv"}">${(0, import_index_ae8bceff.v)(Saos, "Saos").$$render($$result, {
     once: true,
     animation: "fade-in 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both",
     top: 250,
     bottom: 250
   }, {}, {
     default: () => {
-      return `<h2 class="${"svelte-10mzafu"}">Projects</h2>`;
+      return `<h2 class="${"svelte-1kbuqvv"}">Projects</h2>`;
     }
   })}
-        <section class="${"wrapper-projects svelte-10mzafu"}">${(0, import_index_ae8bceff.v)(Saos, "Saos").$$render($$result, {
+        <section class="${"wrapper-projects svelte-1kbuqvv"}">${(0, import_index_ae8bceff.v)(Saos, "Saos").$$render($$result, {
     once: true,
     animation: "fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both",
     top: 250,
     bottom: 250
   }, {}, {
     default: () => {
-      return `<div class="${"projects-text svelte-10mzafu"}"><h3 class="${"svelte-10mzafu"}">Dyzee Diaries</h3>
-                <p class="${"svelte-10mzafu"}">The Dyzee Diaries landing page was a collaborative effort with the Pure Func team. Our client had a slow-loading WordPress website, and it was our goal to recreate and optimize the static website using SvelteKit. We split up our tasks and used a tracker tool to track and update our task progress. My tasks included styling/animations, content, images, and components. This application was my first introduction to using and deploying a Svelte application.</p>
-                <p class="${"svelte-10mzafu"}">Svelte / SvelteKit, HTML, CSS, JavaScript</p>
-                <a href="${"https://demo-dyzee-diaries.netlify.app/"}" class="${"svelte-10mzafu"}"><button class="${"project-link svelte-10mzafu"}"><span class="${"svelte-10mzafu"}">See Live Demo</span></button></a></div>`;
+      return `<div class="${"projects-text svelte-1kbuqvv"}"><h3 class="${"svelte-1kbuqvv"}">Dyzee Diaries</h3>
+                <p class="${"svelte-1kbuqvv"}">The Dyzee Diaries landing page was a collaborative effort with the Pure Func team. Our client had a slow-loading WordPress website, and it was our goal to recreate and optimize the static website using SvelteKit. We split up our tasks and used a tracker tool to track and update our task progress. My tasks included styling/animations, content, images, and components. This application was my first introduction to using and deploying a Svelte application.</p>
+                <p class="${"svelte-1kbuqvv"}">Svelte / SvelteKit, HTML, CSS, JavaScript</p>
+                <a href="${"https://demo-dyzee-diaries.netlify.app/"}" class="${"svelte-1kbuqvv"}"><button class="${"project-link svelte-1kbuqvv"}"><span class="${"svelte-1kbuqvv"}">See Live Demo</span></button></a></div>`;
     }
   })}
             ${(0, import_index_ae8bceff.v)(Saos, "Saos").$$render($$result, {
@@ -172,21 +172,21 @@ ${$$result.head += `${$$result.title = `<title>Corey Damocles - Portfolio</title
     bottom: 250
   }, {}, {
     default: () => {
-      return `<div class="${"projects-image svelte-10mzafu"}"><a href="${"https://demo-dyzee-diaries.netlify.app/"}" class="${"svelte-10mzafu"}"><img class="${"project-img svelte-10mzafu"}"${(0, import_index_ae8bceff.a)("src", dyzeeDiaries, 0)} alt="${"Dyzee Diaries project"}"></a></div>`;
+      return `<div class="${"projects-image svelte-1kbuqvv"}"><a href="${"https://demo-dyzee-diaries.netlify.app/"}" class="${"svelte-1kbuqvv"}"><img class="${"project-img svelte-1kbuqvv"}"${(0, import_index_ae8bceff.a)("src", dyzeeDiaries, 0)} alt="${"Dyzee Diaries project"}"></a></div>`;
     }
   })}</section>
 
-        <section class="${"wrapper-projects svelte-10mzafu"}">${(0, import_index_ae8bceff.v)(Saos, "Saos").$$render($$result, {
+        <section class="${"wrapper-projects svelte-1kbuqvv"}">${(0, import_index_ae8bceff.v)(Saos, "Saos").$$render($$result, {
     once: true,
     animation: "fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both",
     top: 250,
     bottom: 250
   }, {}, {
     default: () => {
-      return `<div class="${"projects-text svelte-10mzafu"}"><h3 class="${"svelte-10mzafu"}">Pok\xE9dex Lite</h3>
-                <p class="${"svelte-10mzafu"}">I am an avid Pok\xE9mon fan and created this simple Pok\xE9dex app to teach myself how to use async functions and promises while using an API. Providing a Pok\xE9mon name or number will send a request to the API, which should then respond back with a Pok\xE9mon if found in the database. I also incorporated a random function that will randomly choose a Pok\xE9mon for the user! The card colors are responsive to the typing of the given Pok\xE9mon.</p>
-                <p class="${"svelte-10mzafu"}">HTML, CSS, JavaScript, API by <a href="${"https://pokeapi.co/"}" class="${"svelte-10mzafu"}">Pok\xE9API.co</a></p>
-                <a href="${"https://github.com/ubemacapuno/pokedex-lite"}" class="${"svelte-10mzafu"}"><button class="${"project-link svelte-10mzafu"}"><span class="${"svelte-10mzafu"}">See Repository</span></button></a></div>`;
+      return `<div class="${"projects-text svelte-1kbuqvv"}"><h3 class="${"svelte-1kbuqvv"}">Pok\xE9dex Lite</h3>
+                <p class="${"svelte-1kbuqvv"}">I am an avid Pok\xE9mon fan and created this simple Pok\xE9dex app to teach myself how to use async functions and promises while using an API. Providing a Pok\xE9mon name or number will send a request to the API, which should then respond back with a Pok\xE9mon if found in the database. I also incorporated a random function that will randomly choose a Pok\xE9mon for the user! The card colors are responsive to the typing of the given Pok\xE9mon.</p>
+                <p class="${"svelte-1kbuqvv"}">HTML, CSS, JavaScript, API by <a href="${"https://pokeapi.co/"}" class="${"svelte-1kbuqvv"}">Pok\xE9API.co</a></p>
+                <a href="${"https://github.com/ubemacapuno/pokedex-lite"}" class="${"svelte-1kbuqvv"}"><button class="${"project-link svelte-1kbuqvv"}"><span class="${"svelte-1kbuqvv"}">See Repository</span></button></a></div>`;
     }
   })}
             ${(0, import_index_ae8bceff.v)(Saos, "Saos").$$render($$result, {
@@ -196,21 +196,21 @@ ${$$result.head += `${$$result.title = `<title>Corey Damocles - Portfolio</title
     bottom: 250
   }, {}, {
     default: () => {
-      return `<div class="${"projects-image svelte-10mzafu"}"><a href="${"https://codepen.io/corey-damocles/pen/rNJZQXB"}" class="${"svelte-10mzafu"}"><img class="${"project-img svelte-10mzafu"}"${(0, import_index_ae8bceff.a)("src", pokedexLite, 0)} alt="${"Pok\xE9dex Lite project"}"></a></div>`;
+      return `<div class="${"projects-image svelte-1kbuqvv"}"><a href="${"https://codepen.io/corey-damocles/pen/rNJZQXB"}" class="${"svelte-1kbuqvv"}"><img class="${"project-img svelte-1kbuqvv"}"${(0, import_index_ae8bceff.a)("src", pokedexLite, 0)} alt="${"Pok\xE9dex Lite project"}"></a></div>`;
     }
   })}</section>
 
-        <section class="${"wrapper-projects svelte-10mzafu"}">${(0, import_index_ae8bceff.v)(Saos, "Saos").$$render($$result, {
+        <section class="${"wrapper-projects svelte-1kbuqvv"}">${(0, import_index_ae8bceff.v)(Saos, "Saos").$$render($$result, {
     once: true,
     animation: "fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both",
     top: 250,
     bottom: 250
   }, {}, {
     default: () => {
-      return `<div class="${"projects-text svelte-10mzafu"}"><h3 class="${"svelte-10mzafu"}">Chromatic Climbers</h3>
-                <p class="${"svelte-10mzafu"}">This is a static single-paged website made for the Chromatic Climbers rock-climbing organization in Phoenix, AZ. When building this simple page, I realized that HTML and CSS are powerful on their own, and for a simple one-page website, frameworks and libraries are not always necessary! </p>
-                <p class="${"svelte-10mzafu"}">HTML, CSS</p>
-                <a href="${"https://github.com/ubemacapuno/chromatic-climbers"}" class="${"svelte-10mzafu"}"><button class="${"project-link svelte-10mzafu"}"><span class="${"svelte-10mzafu"}">See Repository</span></button></a></div>`;
+      return `<div class="${"projects-text svelte-1kbuqvv"}"><h3 class="${"svelte-1kbuqvv"}">Chromatic Climbers</h3>
+                <p class="${"svelte-1kbuqvv"}">This is a static single-paged website made for the Chromatic Climbers rock-climbing organization in Phoenix, AZ. When building this simple page, I realized that HTML and CSS are powerful on their own, and for a simple one-page website, frameworks and libraries are not always necessary! </p>
+                <p class="${"svelte-1kbuqvv"}">HTML, CSS</p>
+                <a href="${"https://github.com/ubemacapuno/chromatic-climbers"}" class="${"svelte-1kbuqvv"}"><button class="${"project-link svelte-1kbuqvv"}"><span class="${"svelte-1kbuqvv"}">See Repository</span></button></a></div>`;
     }
   })}
             ${(0, import_index_ae8bceff.v)(Saos, "Saos").$$render($$result, {
@@ -220,7 +220,7 @@ ${$$result.head += `${$$result.title = `<title>Corey Damocles - Portfolio</title
     bottom: 250
   }, {}, {
     default: () => {
-      return `<div class="${"projects-image svelte-10mzafu"}"><a href="${"https://demo-chromatic-climbers.netlify.app/"}" class="${"svelte-10mzafu"}"><img class="${"project-img svelte-10mzafu"}"${(0, import_index_ae8bceff.a)("src", chromaticClimbers, 0)} alt="${"Chromatic Climbers project"}"></a></div>`;
+      return `<div class="${"projects-image svelte-1kbuqvv"}"><a href="${"https://demo-chromatic-climbers.netlify.app/"}" class="${"svelte-1kbuqvv"}"><img class="${"project-img svelte-1kbuqvv"}"${(0, import_index_ae8bceff.a)("src", chromaticClimbers, 0)} alt="${"Chromatic Climbers project"}"></a></div>`;
     }
   })}</section></div>  
 </body>`;
