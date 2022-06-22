@@ -1,6 +1,6 @@
 <script context="module">
 import { browser, dev } from '$app/env';
-import Seo from "$lib/components/seo.svelte";
+import Seo from "$lib/components/Seo.svelte";
 import portrait from "$lib//Images/about/portrait.jpg"
 import pokedexLite from "$lib/Images/projects/pokedex-lite.jpg"
 import chromaticClimbers from "$lib/Images/projects/chromatic-climbers.jpg"
