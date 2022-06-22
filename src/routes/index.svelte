@@ -9,7 +9,7 @@ import Saos from "saos";
 export const router = browser;
 </script>
 
-<Seo title="Contact" description="Contact for more information" pathname="/contact" />
+<Seo title="Corey Damocles - Portfolio" description="Portfolio Homepage" pathname="/" />
 
 <svelte:head>
     <title>Corey Damocles - Portfolio</title>
