@@ -260,7 +260,7 @@ button span:after {
 }
 
 button:hover {
-    background: -webkit-linear-gradient(#E15FED, #332FD0);
+    background-color: var(--primary-color);
 }
 
 button:hover span {
