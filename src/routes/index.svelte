@@ -133,10 +133,6 @@ header {
   scroll-behavior: smooth;
 }
 
-body {
-    margin: 0
-}
-
 body, .projects-container {
     background-color: var(--background-color);
 }
@@ -239,7 +235,7 @@ h2 {
 
 .project-img {
 	min-width: 650px;
-    padding: 0 15px;
+    padding-left: 15px;
     transition: all 0.3s;
 }
 
