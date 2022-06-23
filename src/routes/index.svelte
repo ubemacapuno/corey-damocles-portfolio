@@ -323,11 +323,11 @@ button:hover span:after {
     }
     .project-img {
 	    min-width: 600px;
-        padding: 15px;
+        padding: 0px;
     }
     .project-img:hover {
     transform: none;
-}
+    }
 }
 
 @media (max-width: 650px) {
