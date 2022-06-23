@@ -5,6 +5,7 @@ import portrait from "$lib//Images/about/portrait.jpg"
 import pokedexLite from "$lib/Images/projects/pokedex-lite.jpg"
 import chromaticClimbers from "$lib/Images/projects/chromatic-climbers.jpg"
 import dyzeeDiaries from "$lib/Images/projects/dyzee-diaries.jpg"
+import dropzoneAPI from "$lib/Images/projects/dropzone-api.jpg"
 import Saos from "saos";
 export const router = browser;
 </script>
@@ -58,7 +59,8 @@ export const router = browser;
                 <h3>Dyzee Diaries</h3>
                 <p>The Dyzee Diaries landing page was a collaborative effort with the Pure Func team. Our client had a slow-loading WordPress website, and it was our goal to recreate and optimize the static website using SvelteKit. We split up our tasks and used a tracker tool to track and update our task progress. My tasks included styling/animations, content, images, and components. This application was my first introduction to using and deploying a Svelte application.</p>
                 <p>Svelte / SvelteKit, HTML, CSS, JavaScript</p>
-                <a href="https://demo-dyzee-diaries.netlify.app/"><button class="project-link"><span>See Live Demo</span></button></a>
+                <a href="https://github.com/ubemacapuno/dyzee-diaries"><button class="project-link"><span>Repo</span></button></a>
+                <a href="https://demo-dyzee-diaries.netlify.app/"><button class="project-link"><span>Live</span></button></a>
             </div>
             </Saos>
             <Saos once={true} animation={'swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both'} top={250} bottom={250}>
@@ -74,7 +76,8 @@ export const router = browser;
                 <h3>Pokédex Lite</h3>
                 <p>I am an avid Pokémon fan and created this simple Pokédex app to teach myself how to use async functions and promises while using an API. Providing a Pokémon name or number will send a request to the API, which should then respond back with a Pokémon if found in the database. I also incorporated a random function that will randomly choose a Pokémon for the user! The card colors are responsive to the typing of the given Pokémon.</p>
                 <p>HTML, CSS, JavaScript, API by <a href="https://pokeapi.co/">PokéAPI.co</a></p>
-                <a href="https://github.com/ubemacapuno/pokedex-lite"><button class="project-link"><span>See Repository</span></button></a>
+                <a href="https://github.com/ubemacapuno/pokedex-lite"><button class="project-link"><span>Repo</span></button></a>
+                <a href="https://codepen.io/corey-damocles/pen/rNJZQXB"><button class="project-link"><span>Live</span></button></a>
             </div>
             </Saos>
             <Saos once={true} animation={'swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both'} top={250} bottom={250}>
@@ -87,10 +90,29 @@ export const router = browser;
         <section class="wrapper-projects">
             <Saos once={true} animation={'fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both'} top={250} bottom={250}>
             <div class="projects-text">
+                <h3>Random Dropzone API</h3>
+                <p>I enjoy playing first-person shooter games on my free-time, and developed an API that randomizes various map locations for the Call of Duty: Warzone battle royale videogame. There are three maps to choose from, with each map corresponding to a different HTTP GET request on the API which is hosted on Heroku.app.</p>
+                <p class="disclaimer">*Please note that the API is hosted on a free Heroku.app account, so it may take up to 15 seconds for the dyno to respond.</p>
+                <p>HTML, CSS, JavaScript, API hosted on <a href="https://random-rebirth-island-api.herokuapp.com/random">Heroku.app</a></p>
+                <a href="https://github.com/ubemacapuno/random-dropzone-api"><button class="project-link"><span>Repo</span></button></a>
+                <a href="https://random-dropzone.netlify.app/"><button class="project-link"><span>Live</span></button></a>
+            </div>
+            </Saos>
+            <Saos once={true} animation={'swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both'} top={250} bottom={250}>
+            <div class="projects-image">
+                <a href="https://random-dropzone.netlify.app/"><img class="project-img" src={dropzoneAPI} alt="Dropzone API project"></a>
+            </div>
+            </Saos>
+        </section>
+
+        <section class="wrapper-projects">
+            <Saos once={true} animation={'fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both'} top={250} bottom={250}>
+            <div class="projects-text">
                 <h3>Chromatic Climbers</h3>
                 <p>This is a static single-paged website made for the Chromatic Climbers rock-climbing organization in Phoenix, AZ. When building this simple page, I realized that HTML and CSS are powerful on their own, and for a simple one-page website, frameworks and libraries are not always necessary! </p>
                 <p>HTML, CSS</p>
-                <a href="https://github.com/ubemacapuno/chromatic-climbers"><button class="project-link"><span>See Repository</span></button></a>
+                <a href="https://github.com/ubemacapuno/chromatic-climbers"><button class="project-link"><span>Repo</span></button></a>
+                <a href="https://demo-chromatic-climbers.netlify.app/"><button class="project-link"><span>Live</span></button></a>
             </div>
             </Saos>
             <Saos once={true} animation={'swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both'} top={250} bottom={250}>
@@ -203,6 +225,10 @@ h2 {
     margin-bottom: 30px;
 }
 
+.disclaimer {
+    font-style: italic;
+}
+
 .projects-container {
     margin: 0 5px;
     display: flex;
@@ -235,7 +261,7 @@ button {
 	background-color: transparent;
     transition: all 0.2s;
     cursor: pointer;
-    margin: 5px;
+    margin: 5px 0;
 }
 
 button span {
@@ -256,7 +282,7 @@ button span:after {
 }
 
 button:hover {
-    background: -webkit-linear-gradient(#E15FED, #332FD0);
+    background-color: var(--primary-color);;
 }
 
 button:hover span {
@@ -267,6 +293,10 @@ button:hover span:after {
   opacity: 1;
   right: 0;
 }
+
+/* *************************** */
+/* Media Queries */
+/* *************************** */
 
 @media (max-width: 900px) {
 	.about-me {
@@ -299,13 +329,15 @@ button:hover span:after {
     .about-me p {
         margin: 0.4rem 0;
     }
+
     .project-img {
 	    min-width: 600px;
-        padding: 15px;
+        padding: 15px 5px;
     }
+    
     .project-img:hover {
     transform: none;
-}
+    }
 }
 
 @media (max-width: 650px) {
@@ -331,6 +363,10 @@ button:hover span:after {
 	    min-width: 200px;
     }
 }
+
+/* *************************** */
+/* Animation Keyframes */
+/* *************************** */
 
 @keyframes -global-from-left {
   0% {
