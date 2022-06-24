@@ -14,7 +14,7 @@ This is my most up-to-date portfolio with my recent projects and contact links, 
 
 Svelte/SvelteKit, JavaScript/HTML/CSS
 
-To use this repository, please be sure to checkout [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte), and 
+Please be sure to checkout [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte), and 
 
 ## `npm -install`
 
