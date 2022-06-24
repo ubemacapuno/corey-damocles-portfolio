@@ -16,7 +16,7 @@ Svelte/SvelteKit, JavaScript/HTML/CSS
 
 To use this repository, please be sure to checkout [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte), and 
 
-## `<strong>npm -install</strong>`
+## `npm -install`
 
 ## Optimizations:
 
