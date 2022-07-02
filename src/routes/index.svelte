@@ -7,6 +7,7 @@ import dropzoneAPI from "$lib//Images/projects/dropzone-api.jpg"
 import dyzeeDiaries from "$lib/Images/projects/dyzee-diaries.jpg"
 import Saos from "saos";
 export const router = browser;
+export const prerender = true;
 </script>
 
 <Seo title="Corey Damocles - Portfolio" description="Portfolio Homepage" pathname="/" />
