@@ -207,6 +207,10 @@ h2 {
     margin-bottom: 30px;
 }
 
+.disclaimer {
+    font-style: italic;
+}
+
 .projects-container {
     margin: 0 5px;
     display: flex;
@@ -256,10 +260,12 @@ h2 {
     .about-me p {
         margin: 0.4rem 0;
     }
+
     .project-img {
 	    min-width: 600px;
-        padding: 0px;
+        padding: 15px 5px;
     }
+    
     .project-img:hover {
     transform: none;
     }
@@ -288,6 +294,10 @@ h2 {
 	    min-width: 200px;
     }
 }
+
+/* *************************** */
+/* Animation Keyframes */
+/* *************************** */
 
 @keyframes -global-from-left {
   0% {
