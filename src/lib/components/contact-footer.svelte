@@ -24,9 +24,35 @@
 			<li><a target="_blank" href="https://twitter.com/coreydamo"><img src={twitterIcon} alt="Twitter Logo" class="icon"></a></li>
 		</ul>
 	</header>
-	<div class="actions">
-		<a target="_blank" rel="noopener noreferrer" href="mailto:damoclescj@gmail.com"><input type="submit" value="Send Email" class="primary" /></a>
+
+	<div class="contact-card">
+		<form name="contact-form-netlify" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+			<input type="hidden" name="form-name" value="test" />
+			<div class="fields">
+				<div class="field half">
+					<p class="contact-form">Name (required)</p>
+					<input type="text" name="name" id="name" required/>
+				</div>
+				<div class="field half">
+					<p class="contact-form">Email (required)</p>
+					<input type="email" name="email" id="email" required/>
+				</div>
+				<div class="field half">
+					<p class="contact-form">Subject</p>
+					<input type="text" name="subject" id="subject" />
+				</div>
+				<div class="field">
+					<p class="contact-form">Message</p>
+					<textarea name="message" id="message" rows="4" required></textarea>
+				</div>
+				<div class="field">
+					<div data-netlify-recaptcha="true"></div>
+				</div>
+				<button type="submit" value="Send Email" class="primary"><span>Submit</span></button>
+			</div>
+		</form>
 	</div>
+
 </div>
 <style>
 
@@ -36,6 +62,7 @@
 	align-items: center;
 	justify-content: center;
 	background-image: linear-gradient(to right top,#E15FED,#9254C8,#332FD0);
+	padding-bottom: 50px;
 }
 
 header {
@@ -72,13 +99,6 @@ h2 {
 	color: white;
 }
 
-.actions {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin: 16px;
-}
-
 .primary {
 	color: white;
 	cursor: pointer;
@@ -95,5 +115,71 @@ h2 {
 .primary:hover {
     background-color: var(--primary-color);
 }
+/* contact form styling */
+.contact-card{
+	width: 650px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.contact-card p{
+	color: var(--pure-white);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 16px;
+}
+form {
+	border-radius: 1rem;
+	border: 1px solid var(--nav-text-color);
+	padding: 1rem;
+	width: 500px;
+	background-color: var(--alternate-background-color);
+} 
+.fields {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+}
+.field input, .field, .field textarea {
+	width: 100%;
+}
+textarea {
+	resize: none;
+	min-height: 100px;
+}
+
+.contact-form {
+	text-align: left;
+}
+.field {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.field p{
+	margin-left: 0;
+	margin-bottom: 10px;
+}
+.fields button {
+	background-color: var(--tertiary-color);
+}
+
+button:hover {
+    background-color: var(--secondary-color);
+}
+
+ @media (max-width: 650px) {
+		form {
+		width: 400px;
+	} 
+}
+
+@media (max-width: 430px) {
+		form {
+		width: 260px;
+	} 
+}
+
 
 </style>

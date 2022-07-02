@@ -4,7 +4,7 @@
 <footer>
     <p>© 2022 Corey Damocles </p>
     <p class="pipe">|</p>
-    <p>Coded with <a href="https://svelte.dev/">SvelteKit</a></p>
+    <p>Coded with <a href="https://svelte.dev/" target="_blank">SvelteKit</a></p>
     <!-- <Copyright>Corey Damocles</Copyright> -->
 </footer>
 

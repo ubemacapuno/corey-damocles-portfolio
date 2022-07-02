@@ -5,7 +5,18 @@ import adapter from '@sveltejs/adapter-netlify'
 const config = {
 	preprocess: preprocess(),
 	kit: {
-		adapter: adapter(),	
+		adapter: adapter(),
+		//See prerender settings below to get Netlify forms functionality with SvelteKit
+		prerender: {
+			crawl: true,
+			enabled: true,
+			onError: 'continue',
+			entries: ['*']
+		},
+		// Override http methods in the Todo forms
+		methodOverride: {
+			allowed: ['PATCH', 'DELETE']
+		}
 	}
 };
 

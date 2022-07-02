@@ -37,8 +37,7 @@ export const router = browser;
                     Hey! My name is Corey Damocles and I am a freelance web developer based in Phoenix, AZ. I have a passion for learning new technologies and started my coding journey through self-teaching in January 2022. I joined the <a href="https://purefunc.io/" target="_blank">Pure Func</a> web development agency as a front-end developer intern in April 2022.
                 </p>
                 <p>
-                    My skills include JavaScript, Node.js, Express.js, Svelte/Sveltekit, MongoDB, Git, HTML, and CSS/SCSS. I am currently familiarizing myself with React, Typescript, the MERN stack, and other fun tech stacks!
-                </p>
+                    I am currently developing projects with the cutting edge framework of <a href="https://svelte.dev/" target="_blank">SvelteKit</a>, as well as familiarizing myself with React, Typescript, the MERN stack, and other fun tech stacks! My skills include JavaScript, Node.js, Express.js, MongoDB, Git, HTML, and CSS/SCSS.
                 <p>
                     Let's build something together!
                 </p>
@@ -58,13 +57,13 @@ export const router = browser;
                 <h3>Dyzee Diaries</h3>
                 <p>The Dyzee Diaries landing page was a collaborative effort with the Pure Func team. Our client had a slow-loading WordPress website, and it was our goal to recreate and optimize the static website using SvelteKit. We split up our tasks and used a tracker tool to track and update our task progress. My tasks included styling/animations, content, images, and components. This application was my first introduction to using and deploying a Svelte application.</p>
                 <p>Svelte / SvelteKit, HTML, CSS, JavaScript</p>
-                <a href="https://github.com/ubemacapuno/dyzee-diaries"><button class="project-link"><span>Repo</span></button></a>
-                <a href="https://demo-dyzee-diaries.netlify.app/"><button class="project-link"><span>Live</span></button></a>
+                <a href="https://github.com/ubemacapuno/dyzee-diaries" target="_blank"><button class="project-link"><span>Repo</span></button></a>
+                <a href="https://demo-dyzee-diaries.netlify.app/" target="_blank"><button class="project-link"><span>Live</span></button></a>
             </div>
             </Saos>
             <Saos once={true} animation={'swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both'} top={250} bottom={250}>
             <div class="projects-image">
-                <a href="https://demo-dyzee-diaries.netlify.app/"><img class="project-img" src={dyzeeDiaries} alt="Dyzee Diaries project"></a>
+                <a href="https://demo-dyzee-diaries.netlify.app/" target="_blank"><img class="project-img" src={dyzeeDiaries} alt="Dyzee Diaries project"></a>
             </div>
             </Saos>
         </section>
@@ -74,14 +73,14 @@ export const router = browser;
             <div class="projects-text">
                 <h3>Pokédex Lite</h3>
                 <p>I am an avid Pokémon fan and created this simple Pokédex app to teach myself how to use async functions and promises while using an API. Providing a Pokémon name or number will send a request to the API, which should then respond back with a Pokémon if found in the database. I also incorporated a random function that will randomly choose a Pokémon for the user! The card colors are responsive to the typing of the given Pokémon.</p>
-                <p>HTML, CSS, JavaScript, API by <a href="https://pokeapi.co/">PokéAPI.co</a></p>
-                <a href="https://github.com/ubemacapuno/pokedex-lite"><button class="project-link"><span>Repo</span></button></a>
-                <a href="https://codepen.io/corey-damocles/pen/rNJZQXB"><button class="project-link"><span>Live</span></button></a>
+                <p>HTML, CSS, JavaScript, API by <a href="https://pokeapi.co/" target="_blank">PokéAPI.co</a></p>
+                <a href="https://github.com/ubemacapuno/pokedex-lite" target="_blank"><button class="project-link"><span>Repo</span></button></a>
+                <a href="https://codepen.io/corey-damocles/pen/rNJZQXB" target="_blank"><button class="project-link"><span>Live</span></button></a>
             </div>
             </Saos>
             <Saos once={true} animation={'swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both'} top={250} bottom={250}>
             <div class="projects-image">
-                <a href="https://codepen.io/corey-damocles/pen/rNJZQXB"><img class="project-img" src={pokedexLite} alt="Pokédex Lite project"></a>
+                <a href="https://codepen.io/corey-damocles/pen/rNJZQXB" target="_blank"><img class="project-img" src={pokedexLite} alt="Pokédex Lite project"></a>
             </div>
             </Saos>
         </section>
@@ -92,18 +91,18 @@ export const router = browser;
                 <h3>Random Dropzone API</h3>
                 <p>I enjoy playing first-person shooter games on my free-time, and developed an API that randomizes various map locations for the Call of Duty: Warzone battle royale videogame. There are three maps to choose from, with each map corresponding to a different HTTP GET request on the API which is hosted on Heroku.app.</p>
                 <p class="disclaimer">*Please note that the API is hosted on a free Heroku.app account, so it may take up to 15 seconds for the dyno to respond.</p>
-                <p>HTML, CSS, JavaScript, API hosted on <a href="https://random-rebirth-island-api.herokuapp.com/random">Heroku.app</a></p>
-                <a href="https://github.com/ubemacapuno/random-dropzone-api"><button class="project-link"><span>Repo</span></button></a>
-                <a href="https://random-dropzone.netlify.app/"><button class="project-link"><span>Live</span></button></a>
+                <p>HTML, CSS, JavaScript, API hosted on <a href="https://random-rebirth-island-api.herokuapp.com/random" target="_blank">Heroku.app</a></p>
+                <a href="https://github.com/ubemacapuno/random-dropzone-api" target="_blank"><button class="project-link"><span>Repo</span></button></a>
+                <a href="https://random-dropzone.netlify.app/" target="_blank"><button class="project-link"><span>Live</span></button></a>
             </div>
             </Saos>
             <Saos once={true} animation={'swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both'} top={250} bottom={250}>
             <div class="projects-image">
-                <a href="https://random-dropzone.netlify.app/"><img class="project-img" src={dropzoneAPI} alt="Dropzone API project"></a>
+                <a href="https://random-dropzone.netlify.app/" target="_blank"><img class="project-img" src={dropzoneAPI} alt="Dropzone API project"></a>
             </div>
             </Saos>
         </section>
-        
+
     </div>  
 </body>
 
@@ -208,6 +207,10 @@ h2 {
     margin-bottom: 30px;
 }
 
+.disclaimer {
+    font-style: italic;
+}
+
 .projects-container {
     margin: 0 5px;
     display: flex;
@@ -224,53 +227,6 @@ h2 {
 
 .project-img:hover {
     transform: perspective(650px) rotateY(-20deg) translateY(-15px) rotateX(3deg) scale(1);
-}
-
-button {
-    margin-bottom: 16px;
-}
-
-button {
-	cursor: pointer;
-	font-size: inherit;
-	font-family: inherit;
-	font-weight: bold;
-	border: 2px solid var(--nav-text-color);
-	padding: 10px;
-	background-color: transparent;
-    transition: all 0.2s;
-    cursor: pointer;
-    margin: 5px 0;
-}
-
-button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.2s;
-  color: white;
-}
-
-button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.2s;
-}
-
-button:hover {
-    background-color: var(--primary-color);
-}
-
-button:hover span {
-  padding-right: 25px;
-}
-
-button:hover span:after {
-  opacity: 1;
-  right: 0;
 }
 
 @media (max-width: 900px) {
@@ -304,10 +260,12 @@ button:hover span:after {
     .about-me p {
         margin: 0.4rem 0;
     }
+
     .project-img {
 	    min-width: 600px;
-        padding: 0px;
+        padding: 15px 5px;
     }
+    
     .project-img:hover {
     transform: none;
     }
@@ -336,6 +294,10 @@ button:hover span:after {
 	    min-width: 200px;
     }
 }
+
+/* *************************** */
+/* Animation Keyframes */
+/* *************************** */
 
 @keyframes -global-from-left {
   0% {
