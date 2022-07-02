@@ -4,7 +4,6 @@ import Seo from "$lib/components/seo.svelte";
 import portrait from "$lib//Images/about/portrait.jpg"
 import pokedexLite from "$lib/Images/projects/pokedex-lite.jpg"
 import dropzoneAPI from "$lib//Images/projects/dropzone-api.jpg"
-import chromaticClimbers from "$lib/Images/projects/chromatic-climbers.jpg"
 import dyzeeDiaries from "$lib/Images/projects/dyzee-diaries.jpg"
 import Saos from "saos";
 export const router = browser;
@@ -104,23 +103,7 @@ export const router = browser;
             </div>
             </Saos>
         </section>
-
-        <section class="wrapper-projects">
-            <Saos once={true} animation={'fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both'} top={250} bottom={250}>
-            <div class="projects-text">
-                <h3>Chromatic Climbers</h3>
-                <p>This is a static single-paged website made for the Chromatic Climbers rock-climbing organization in Phoenix, AZ. When building this simple page, I realized that HTML and CSS are powerful on their own, and for a simple one-page website, frameworks and libraries are not always necessary! </p>
-                <p>HTML, CSS</p>
-                <a href="https://github.com/ubemacapuno/chromatic-climbers"><button class="project-link"><span>Repo</span></button></a>
-                <a href="https://demo-chromatic-climbers.netlify.app/"><button class="project-link"><span>Live</span></button></a>
-            </div>
-            </Saos>
-            <Saos once={true} animation={'swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both'} top={250} bottom={250}>
-            <div class="projects-image">
-                <a href="https://demo-chromatic-climbers.netlify.app/"><img class="project-img" src={chromaticClimbers} alt="Chromatic Climbers project"></a>
-            </div>
-            </Saos>
-        </section>
+        
     </div>  
 </body>
 
