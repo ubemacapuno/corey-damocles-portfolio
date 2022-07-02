@@ -38,7 +38,7 @@ export const prerender = true;
                     Hey! My name is Corey Damocles and I am a freelance web developer based in Phoenix, AZ. I have a passion for learning new technologies and started my coding journey through self-teaching in January 2022. I joined the <a href="https://purefunc.io/" target="_blank">Pure Func</a> web development agency as a front-end developer intern in April 2022.
                 </p>
                 <p>
-                    I am currently developing projects with the cutting edge framework of <a href="https://svelte.dev/" target="_blank">SvelteKit</a>, as well as familiarizing myself with React, Typescript, the MERN stack, and other fun tech stacks! My skills include JavaScript, Node.js, Express.js, MongoDB, Git, HTML, and CSS/SCSS.
+                    I am currently developing projects with the cutting edge framework <a href="https://kit.svelte.dev/" target="_blank">SvelteKit</a>, as well as familiarizing myself with React, Typescript, the MERN stack, and other fun tech stacks! My skills include JavaScript, Node.js, Express.js, MongoDB, Git, HTML, and CSS/SCSS.
                 <p>
                     Let's build something together!
                 </p>
