@@ -5,64 +5,71 @@
 	import linkedinIcon from "/src/lib/Images/contact/linkedin-icon.svg"
 	import twitterIcon from "/src/lib/Images/contact/twitter-icon.svg"
 </script>
-<div class="page-wrapper">
-	<header>
-		<h2>Let's connect!</h2>
-		<!--Social Media Links / Insert SVGs here-->
-		<ul class="icons">
-			<li><a target="_blank" href="https://linkedin.com/in/corey-damocles-43709295"><img src={linkedinIcon} alt="Linkedin Logo" class="icon"></a></li>
-			<li><a target="_blank" href="https://github.com/ubemacapuno"><img src={githubIcon} alt="Github Logo" class="icon"></a></li>
-			<li><a target="_blank" href="https://codepen.io/corey-damocles"><img src={codepenIcon} alt="Codepen Logo" class="icon"></a></li>
-			<li><a target="_blank" href="https://twitter.com/coreydamo"><img src={twitterIcon} alt="Twitter Logo" class="icon"></a></li>
-		</ul>
-	</header>
+<div class="flex-wrapper">
+	<div class="page-wrapper"> 
+		<!-- <header>  -->
+			<h2>Let's connect!</h2>
+			<!--Social Media Links / Insert SVGs here-->
+			<ul class="icons">
+				<li><a target="_blank" href="https://linkedin.com/in/corey-damocles-43709295"><img src={linkedinIcon} alt="Linkedin Logo" class="icon"></a></li>
+				<li><a target="_blank" href="https://github.com/ubemacapuno"><img src={githubIcon} alt="Github Logo" class="icon"></a></li>
+				<li><a target="_blank" href="https://codepen.io/corey-damocles"><img src={codepenIcon} alt="Codepen Logo" class="icon"></a></li>
+				<li><a target="_blank" href="https://twitter.com/coreydamo"><img src={twitterIcon} alt="Twitter Logo" class="icon"></a></li>
+			</ul>
+		<!-- </header> -->
 
-	<div class="contact-card">
-		<form name="contact-form-netlify" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-			<input type="hidden" name="form-name" value="test" />
-			<div class="fields">
-				<div class="field half">
-					<p class="contact-form">Name (required)</p>
-					<input type="text" name="name" id="name" required/>
+		<div class="contact-card">
+			<form name="contact-form-netlify" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+				<input type="hidden" name="form-name" value="test" />
+				<div class="fields">
+					<div class="field half">
+						<p class="contact-form">Name (required)</p>
+						<input type="text" name="name" id="name" required/>
+					</div>
+					<div class="field half">
+						<p class="contact-form">Email (required)</p>
+						<input type="email" name="email" id="email" required/>
+					</div>
+					<div class="field half">
+						<p class="contact-form">Subject</p>
+						<input type="text" name="subject" id="subject" />
+					</div>
+					<div class="field">
+						<p class="contact-form">Message</p>
+						<textarea name="message" id="message" rows="4" required></textarea>
+					</div>
+					<div class="field">
+						<div data-netlify-recaptcha="true"></div>
+					</div>
+					<button type="submit" value="Send Email" class="primary"><span>Submit</span></button>
 				</div>
-				<div class="field half">
-					<p class="contact-form">Email (required)</p>
-					<input type="email" name="email" id="email" required/>
-				</div>
-				<div class="field half">
-					<p class="contact-form">Subject</p>
-					<input type="text" name="subject" id="subject" />
-				</div>
-				<div class="field">
-					<p class="contact-form">Message</p>
-					<textarea name="message" id="message" rows="4" required></textarea>
-				</div>
-				<div class="field">
-					<div data-netlify-recaptcha="true"></div>
-				</div>
-				<button type="submit" value="Send Email" class="primary"><span>Submit</span></button>
-			</div>
-		</form>
+			</form>
+		</div>
 	</div>
-
 </div>
+
+	
 <style>
+.flex-wrapper{
+	background-image: linear-gradient(to right top,#E15FED,#9254C8,#332FD0);
+	padding-bottom: 50px;
+}
 
 .page-wrapper {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	background-image: linear-gradient(to right top,#E15FED,#9254C8,#332FD0);
-	padding-bottom: 50px;
+	max-width: 900px;
+	margin: 0 auto;
 }
 
-header {
+/* header {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-}
+} */
 
 ul {
 	display: flex;
@@ -109,7 +116,7 @@ h2 {
 }
 /* contact form styling */
 .contact-card{
-	width: 650px;
+	width: 80%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -121,11 +128,12 @@ h2 {
 	justify-content: center;
 	margin: 16px;
 }
+
 form {
 	border-radius: 1rem;
 	border: 1px solid var(--nav-text-color);
 	padding: 1rem;
-	width: 500px;
+	width: 80%;
 	background-color: var(--alternate-background-color);
 } 
 .fields {
@@ -159,18 +167,6 @@ textarea {
 
 button:hover {
     background-color: var(--secondary-color);
-}
-
- @media (max-width: 650px) {
-		form {
-		width: 400px;
-	} 
-}
-
-@media (max-width: 430px) {
-		form {
-		width: 260px;
-	} 
 }
 
 
