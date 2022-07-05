@@ -116,7 +116,7 @@ h2 {
 }
 /* contact form styling */
 .contact-card{
-	width: 80%;
+	width: 90%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -133,7 +133,7 @@ form {
 	border-radius: 1rem;
 	border: 1px solid var(--nav-text-color);
 	padding: 1rem;
-	width: 80%;
+	width: 100%;
 	background-color: var(--alternate-background-color);
 } 
 .fields {
