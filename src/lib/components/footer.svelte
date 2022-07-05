@@ -1,8 +1,8 @@
 <script>
-    // import Copyright from "svelte-copyright";
+    let copyrightYear = new Date().getFullYear() 
 </script>
 <footer>
-    <p>© 2022 Corey Damocles </p>
+    <p>© {copyrightYear} Corey Damocles</p>
     <p class="pipe">|</p>
     <p>Coded with <a href="https://kit.svelte.dev/" target="_blank">SvelteKit</a></p>
     <!-- <Copyright>Corey Damocles</Copyright> -->
