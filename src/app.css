@@ -7,6 +7,7 @@
 	--link-hover-color: #9af2ff;
 	--background-color: #222327;
 	--alternate-background-color: hsla(228, 16%, 70%, 30%);
+	--mobile-menu-background-color: hsla(228, 7%, 14%, 0.95);
 	--secondary-color: #212121;
 	--tertiary-color: #E15FED;
 	--accent-color: #9254C8;
@@ -140,6 +141,15 @@ pre {
 }
 
 /* Utility */
+
+.icon {
+	width: 100%;
+	transition: all 0.3s;
+}
+
+.icon:hover {
+	transform:scale(1.2)
+}
 
 button {
 	cursor: pointer;
