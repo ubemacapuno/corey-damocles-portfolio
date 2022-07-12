@@ -74,24 +74,6 @@ export const prerender = true;
         <section class="wrapper-projects">
             <Saos once={true} animation={'fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both'} top={250} bottom={250}>
             <div class="projects-text">
-                <h3>Random Dropzone API</h3>
-                <p>I enjoy playing first-person shooter games on my free-time, and developed an API that randomizes various map locations for the Call of Duty: Warzone battle royale videogame. There are three maps to choose from, with each map corresponding to a different HTTP GET request on the API which is hosted on Heroku.app.</p>
-                <p class="disclaimer">*Please note that the API is hosted on a free Heroku.app account, so it may take up to 15 seconds for the dyno to respond.</p>
-                <p>JavaScript, Node.js, Express.js, API hosted on <a href="https://random-rebirth-island-api.herokuapp.com/random" target="_blank">Heroku.app</a>, HTML, CSS</p>
-                <a href="https://github.com/ubemacapuno/random-dropzone-api" target="_blank"><button class="project-link"><span>Repo</span></button></a>
-                <a href="https://random-dropzone.netlify.app/" target="_blank"><button class="project-link"><span>Live</span></button></a>
-            </div>
-            </Saos>
-            <Saos once={true} animation={'swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both'} top={250} bottom={250}>
-            <div class="projects-image">
-                <a href="https://random-dropzone.netlify.app/" target="_blank"><img class="project-img" src={dropzoneAPI} alt="Dropzone API project"></a>
-            </div>
-            </Saos>
-        </section>
-
-        <section class="wrapper-projects">
-            <Saos once={true} animation={'fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both'} top={250} bottom={250}>
-            <div class="projects-text">
                 <h3>Musician LookUp</h3>
                 <p>Want to learn more about a famous musician? Try a search with Musician LookUp! This application utilizes an API and database provided by TheAudioDB to provide you with images and biographical information on countless musicians.</p>
                 <p>HTML, CSS, JavaScript, API by <a href="https://www.theaudiodb.com/api_guide.php" target="_blank">TheAudioDB</a></p>
@@ -102,6 +84,24 @@ export const prerender = true;
             <Saos once={true} animation={'swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both'} top={250} bottom={250}>
             <div class="projects-image">
                 <a href="https://musician-lookup.netlify.app/" target="_blank"><img class="project-img" src={musicianLookUp} alt="Musician LookUp Project"></a>
+            </div>
+            </Saos>
+        </section>
+
+        <section class="wrapper-projects">
+            <Saos once={true} animation={'fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both'} top={250} bottom={250}>
+            <div class="projects-text">
+                <h3>Random Dropzone API</h3>
+                <p>I enjoy playing first-person shooter games on my free-time, and developed an API that randomizes various map locations for the Call of Duty: Warzone battle royale videogame. There are three maps to choose from, with each map corresponding to a different HTTP GET request on the API which is hosted on Heroku.app.</p>
+                <p class="disclaimer">*Please note that the API is hosted on a free Heroku.app account, so it may take up to 15 seconds for the dyno to respond.</p>
+                <p>JavaScript, Node.js, Express.js, API hosted on <a href="https://random-rebirth-island-api.herokuapp.com/random" target="_blank">Heroku.app</a>, HTML, CSS</p>
+                <a href="https://github.com/ubemacapuno/random-dropzone-api" target="_blank"><button class="project-link"><span>Repo</span></button></a>
+                <a href="https://codepen.io/corey-damocles/pen/RwQdeWG" target="_blank"><button class="project-link"><span>Live</span></button></a>
+            </div>
+            </Saos>
+            <Saos once={true} animation={'swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both'} top={250} bottom={250}>
+            <div class="projects-image">
+                <a href="https://random-dropzone.netlify.app/" target="_blank"><img class="project-img" src={dropzoneAPI} alt="Dropzone API project"></a>
             </div>
             </Saos>
         </section>
