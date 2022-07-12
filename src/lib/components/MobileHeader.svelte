@@ -135,13 +135,13 @@
 		justify-content: space-around;
 		margin: 0 auto;
         padding-left: 0;
-		padding-bottom: 50px;
+		padding-bottom: 100px;
 	}
 	.copyright{
 		text-align: center;
 		color: var(--tertiary-color);
 		position: relative;
-		bottom: 25px;
+		bottom: 100px;
 	}
 /* Media Queries */
     @media (min-width: 451px) {

@@ -50,7 +50,7 @@ export const prerender = true;
 
     <!--Projects section-->
     <div class="projects-container">
-        <Saos once={true} animation={'fade-in 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both'} top={250} bottom={250}>
+        <Saos once={true} animation={'fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both'} top={250} bottom={250}>
         <h2 id="projects">Projects</h2>
         <!--ID projects for smooth-scroll-->
         </Saos>
