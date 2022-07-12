@@ -45,10 +45,10 @@
 
         <div class="mobile-socials">
             <ul class="icons">
-                <li><a class="icon" target="_blank" href="https://linkedin.com/in/corey-damocles-43709295"><img src={Linkedin} alt="LinkedIn Logo"></a></li>
-                <li><a class="icon" target="_blank" href="https://github.com/ubemacapuno"><img src={Github} alt="GitHub Logo" class=""></a></li>
-                <li><a class="icon" target="_blank" href="https://codepen.io/corey-damocles"><img src={Codepen} alt="Codepen Logo"></a></li>
-                <li><a class="icon" target="_blank" href="https://twitter.com/coreydamo"><img src={Twitter} alt="Twitter Logo"></a></li>
+                <li><a target="_blank" href="https://linkedin.com/in/corey-damocles-43709295"><img class="icon" src={Linkedin} alt="LinkedIn Logo"></a></li>
+                <li><a target="_blank" href="https://github.com/ubemacapuno"><img class="icon" src={Github} alt="GitHub Logo"></a></li>
+                <li><a class="icon" target="_blank" href="https://codepen.io/corey-damocles"><img class="icon" src={Codepen} alt="Codepen Logo"></a></li>
+                <li><a class="icon" target="_blank" href="https://twitter.com/coreydamo"><img class="icon" src={Twitter} alt="Twitter Logo"></a></li>
             </ul>
 			<div>
 				<p class="copyright">© {copyrightYear} Corey Damocles</p>
