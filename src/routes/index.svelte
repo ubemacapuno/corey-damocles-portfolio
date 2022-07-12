@@ -25,7 +25,7 @@ export const prerender = true;
     <!--About Me section-->
     <div class="about-me-container" id="about-me-container">
         <Saos once={true} animation={'fade-in 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both'} top={250} bottom={250}>
-        <h2>About Me</h2>
+        <h2 id="about">About Me</h2> <!--ID about for smooth-scroll-->
         </Saos>
         <section class="about-me wrapper-about-me">
             <div class="about-me-left">
@@ -51,7 +51,8 @@ export const prerender = true;
     <!--Projects section-->
     <div class="projects-container">
         <Saos once={true} animation={'fade-in 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both'} top={250} bottom={250}>
-        <h2>Projects</h2>
+        <h2 id="projects">Projects</h2>
+        <!--ID projects for smooth-scroll-->
         </Saos>
         <section class="wrapper-projects">
             <Saos once={true} animation={'fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both'} top={250} bottom={250}>
@@ -130,10 +131,6 @@ export const prerender = true;
     box-sizing: border-box;
 }
 
-header {
-  scroll-behavior: smooth;
-}
-
 body, .projects-container {
     background-color: var(--background-color);
 }
@@ -142,7 +139,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    height: 100vh;
 }
 
 h1 {

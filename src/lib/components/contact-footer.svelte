@@ -8,7 +8,7 @@
 <div class="flex-wrapper">
 	<div class="page-wrapper"> 
 		<!-- <header>  -->
-			<h2>Let's connect!</h2>
+			<h2 id="contact">Let's connect!</h2> <!--ID contact for smooth-scroll-->
 			<!--Social Media Links / Insert SVGs here-->
 			<ul class="icons">
 				<li><a target="_blank" href="https://linkedin.com/in/corey-damocles-43709295"><img src={linkedinIcon} alt="Linkedin Logo" class="icon"></a></li>
@@ -83,15 +83,6 @@ li {
 	display: inline;
 	list-style: none;
 	margin: 0 5px;
-}
-
-.icon {
-	width: 100%;
-	transition: all 0.3s;
-}
-
-.icon:hover {
-	transform:scale(1.2)
 }
 
 h2 {

@@ -7,8 +7,10 @@
 <script context="module">
     import ContactFooter from "$lib/components/contact-footer.svelte"
     import Footer from "$lib/components/footer.svelte"
+    import MobileHeader from '$lib/components/MobileHeader.svelte'
     import "../app.css"
 </script>
+<MobileHeader />
 <slot></slot>
-<ContactFooter/>
-<Footer/>
+<ContactFooter />
+<Footer />
