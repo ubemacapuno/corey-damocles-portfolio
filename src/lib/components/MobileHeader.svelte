@@ -153,7 +153,7 @@
        
         .mobile-menu-wrapper {
 		    overflow-y: visible;
-             /*"overflow-y: visible;" is a work-around. 
+             /*Note that "overflow-y: visible;" is a work-around. 
              Without it, when the mobile menu is opened,
              a HORIZONTAL scrollbar is visible on the mobile menu; 
 			 this code hides that scrollbar. */

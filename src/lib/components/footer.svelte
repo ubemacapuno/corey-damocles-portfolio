@@ -4,8 +4,7 @@
 <footer>
     <p>© {copyrightYear} Corey Damocles</p>
     <p class="pipe">|</p>
-    <p>Coded with <a href="https://kit.svelte.dev/" target="_blank">SvelteKit</a></p>
-    <!-- <Copyright>Corey Damocles</Copyright> -->
+    <p><a href="https://github.com/ubemacapuno/corey-damocles-portfolio" target="_blank">Coded</a> with SvelteKit</p>
 </footer>
 
 <style>
